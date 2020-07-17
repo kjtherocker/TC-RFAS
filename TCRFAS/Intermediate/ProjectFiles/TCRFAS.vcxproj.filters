@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TCRFAS.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{37A6081C-2162-4CCC-9598-0302E1D54226}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TCRFAS.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TCRFASEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{76D7B240-30A9-48B7-9414-701C369BDE04}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TCRFAS">
+      <UniqueIdentifier>{7048B3B9-9A84-4460-9239-825060F2C074}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TCRFAS\TCRFAS.Build.cs">
+      <Filter>Source\TCRFAS</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TCRFAS\TCRFAS.cpp">
+      <Filter>Source\TCRFAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCRFAS\TCRFAS.h">
+      <Filter>Source\TCRFAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCRFAS\TCRFASGameModeBase.cpp">
+      <Filter>Source\TCRFAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCRFAS\TCRFASGameModeBase.h">
+      <Filter>Source\TCRFAS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

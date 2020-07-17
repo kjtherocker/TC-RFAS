@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\TC-RFAS\\TCRFAS\\Source\\TCRFAS\\TCRFAS.Build.cs",
+		"F:\\TC-RFAS\\TCRFAS\\Source\\TCRFAS.Target.cs",
+		"F:\\TC-RFAS\\TCRFAS\\Source\\TCRFASEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.1"
+}
