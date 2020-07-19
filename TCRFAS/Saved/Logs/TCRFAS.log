@@ -2424,3 +2424,893 @@ Please see Output Log for details.
 [2020.07.19-17.28.47:242][501]LogEditorActor: Deleted Actor: MySigma_C
 [2020.07.19-17.28.47:314][501]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
 [2020.07.19-17.28.47:319][501]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2020.07.19-17.32.21:328][357]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:\Twilights-Call\Assets\Resources_moved\Objects\Battle\Arena\Base\Arena.FBX)
+[2020.07.19-17.32.21:479][357]LogFbx: Loading FBX Scene from F:\Twilights-Call\Assets\Resources_moved\Objects\Battle\Arena\Base\Arena.FBX
+[2020.07.19-17.32.21:581][357]LogFbx: FBX Scene Loaded Succesfully
+[2020.07.19-17.32.23:190][357]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.07.19-17.32.23:369][357]LogTexture: Display: Building textures: Tree_Diffuse (AutoDXT, 1024X1024)
+[2020.07.19-17.32.23:726][357]LogMaterial: Display: Missing cached shader map for material Tree_Material, compiling. 
+[2020.07.19-17.32.23:774][357]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.07.19-17.32.23:774][357]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.07.19-17.32.23:774][357]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.07.19-17.32.23:774][357]LogTexture: Display: Building textures: Rock_Diffuse (AutoDXT, 1024X1024)
+[2020.07.19-17.32.24:668][357]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2020.07.19-17.32.24:718][357]LogTexture: Display: Building textures: Grass_Diffuse (AutoDXT, 1024X1024)
+[2020.07.19-17.32.25:909][357]LogMaterial: Display: Missing cached shader map for material Grass_Material, compiling. 
+[2020.07.19-17.32.25:965][357]LogTexture: Display: Building textures: Bush (BGRA8, 1196X962)
+[2020.07.19-17.32.26:045][357]LogTexture: Display: Building textures: Bush_Opacity_Map (BGRA8, 1196X962)
+[2020.07.19-17.32.26:130][357]LogMaterial: Display: Missing cached shader map for material Bush_Material, compiling. 
+[2020.07.19-17.32.26:305][357]LogStaticMesh: Building static mesh Arena...
+[2020.07.19-17.32.26:613][357]LogStaticMesh: Built static mesh [0.31s] /Game/Level/Arena.Arena
+[2020.07.19-17.32.26:859][357]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.07.19-17.32.28:812][491]LogSlate: Window 'Message Log' being destroyed
+[2020.07.19-17.32.28:819][491]LogSlate: Window 'Message Log' being destroyed
+[2020.07.19-17.32.30:635][639]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 61
+[2020.07.19-17.32.31:383][695]LogActorFactory: Actor Factory created Arena
+[2020.07.19-17.32.32:450][793]LogActorFactory: Actor Factory created Arena
+[2020.07.19-17.32.33:341][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.07.19-17.32.34:136][943]Cmd: DELETE
+[2020.07.19-17.32.34:136][943]Cmd: ACTOR DELETE
+[2020.07.19-17.32.34:138][943]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.19-17.32.34:171][943]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.07.19-17.32.34:178][943]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2020.07.19-17.32.34:757][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Arena)
+[2020.07.19-17.32.37:844][289]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 51
+[2020.07.19-17.32.42:085][701]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 41
+[2020.07.19-17.32.52:937][668]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 31
+[2020.07.19-17.32.53:340][681]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.07.19-17.32.56:081][736]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.07.19-17.32.59:042][809]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.07.19-17.33.01:541][857]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.07.19-17.33.02:278][875]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.07.19-17.33.02:541][881]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.07.19-17.34.24:249][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.19-17.34.24:257][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Temp/Untitled_1_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.07.19-17.34.24:279][808]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Untitled_1_Auto640E40C434066C4BDC99F12AE5DE929EA.tmp' to '../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Temp/Untitled_1_Auto6.umap'
+[2020.07.19-17.34.24:285][808]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.076
+[2020.07.19-17.34.24:286][808]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.076
+[2020.07.19-17.34.24:286][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Level/Arena] ([1] browsable assets)...
+[2020.07.19-17.34.24:300][808]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Level/Arena.Arena]
+[2020.07.19-17.34.24:300][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Arena]
+[2020.07.19-17.34.24:300][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Arena" FILE="../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Arena_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.07.19-17.34.24:375][808]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Arena_Auto692E57E2948966B47FCB492BF533C5067.tmp' to '../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Arena_Auto6.uasset'
+[2020.07.19-17.34.24:377][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Level/Tree_Material] ([1] browsable assets)...
+[2020.07.19-17.34.24:391][808]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Level/Tree_Material.Tree_Material]
+[2020.07.19-17.34.24:391][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Tree_Material]
+[2020.07.19-17.34.24:391][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Tree_Material" FILE="../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Tree_Material_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.07.19-17.34.24:410][808]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Tree_Material_Auto68845A91245B4DD9440B53484134C6047.tmp' to '../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Tree_Material_Auto6.uasset'
+[2020.07.19-17.34.24:411][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Level/Tree_Diffuse] ([1] browsable assets)...
+[2020.07.19-17.34.24:419][808]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Level/Tree_Diffuse.Tree_Diffuse]
+[2020.07.19-17.34.24:419][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Tree_Diffuse]
+[2020.07.19-17.34.24:419][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Tree_Diffuse" FILE="../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Tree_Diffuse_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.07.19-17.34.24:439][808]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Tree_Diffuse_Auto6286530AA4E69455C5737DE87B8D73A77.tmp' to '../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Tree_Diffuse_Auto6.uasset'
+[2020.07.19-17.34.24:440][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Level/Rock_Material] ([1] browsable assets)...
+[2020.07.19-17.34.24:454][808]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Level/Rock_Material.Rock_Material]
+[2020.07.19-17.34.24:454][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Rock_Material]
+[2020.07.19-17.34.24:454][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Rock_Material" FILE="../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Rock_Material_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.07.19-17.34.24:476][808]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Rock_Material_Auto6CCD3466048BD32DBC28B8F95C14B324B.tmp' to '../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Rock_Material_Auto6.uasset'
+[2020.07.19-17.34.24:477][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Level/Rock_Diffuse] ([1] browsable assets)...
+[2020.07.19-17.34.24:483][808]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Level/Rock_Diffuse.Rock_Diffuse]
+[2020.07.19-17.34.24:483][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Rock_Diffuse]
+[2020.07.19-17.34.24:483][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Rock_Diffuse" FILE="../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Rock_Diffuse_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.07.19-17.34.24:504][808]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Rock_Diffuse_Auto63F9D9B184FFAA3A84DFCFD9095525AFB.tmp' to '../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Rock_Diffuse_Auto6.uasset'
+[2020.07.19-17.34.24:505][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Level/Grass_Material] ([1] browsable assets)...
+[2020.07.19-17.34.24:519][808]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Level/Grass_Material.Grass_Material]
+[2020.07.19-17.34.24:519][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Grass_Material]
+[2020.07.19-17.34.24:519][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Grass_Material" FILE="../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Grass_Material_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.07.19-17.34.24:537][808]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Grass_Material_Auto66204C27248621C98ADD7A79DD763E227.tmp' to '../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Grass_Material_Auto6.uasset'
+[2020.07.19-17.34.24:538][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Level/Grass_Diffuse] ([1] browsable assets)...
+[2020.07.19-17.34.24:544][808]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Level/Grass_Diffuse.Grass_Diffuse]
+[2020.07.19-17.34.24:545][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Grass_Diffuse]
+[2020.07.19-17.34.24:545][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Grass_Diffuse" FILE="../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Grass_Diffuse_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.07.19-17.34.24:566][808]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Grass_Diffuse_Auto60B0732974A1B85A7572E7B861518D4DD.tmp' to '../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Grass_Diffuse_Auto6.uasset'
+[2020.07.19-17.34.24:567][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Level/Bush_Material] ([1] browsable assets)...
+[2020.07.19-17.34.24:582][808]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Level/Bush_Material.Bush_Material]
+[2020.07.19-17.34.24:582][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Bush_Material]
+[2020.07.19-17.34.24:583][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Bush_Material" FILE="../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Bush_Material_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.07.19-17.34.24:604][808]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Bush_Material_Auto60F9FCDE646EA854C57D3379A75F0BF2E.tmp' to '../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Bush_Material_Auto6.uasset'
+[2020.07.19-17.34.24:604][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Level/Bush] ([1] browsable assets)...
+[2020.07.19-17.34.24:610][808]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Level/Bush.Bush]
+[2020.07.19-17.34.24:610][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Bush]
+[2020.07.19-17.34.24:610][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Bush" FILE="../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Bush_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.07.19-17.34.24:626][808]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Bush_Auto653B3BC46448DFBA78101958DF6A2D941.tmp' to '../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Bush_Auto6.uasset'
+[2020.07.19-17.34.24:627][808]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Level/Bush_Opacity_Map] ([1] browsable assets)...
+[2020.07.19-17.34.24:632][808]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Level/Bush_Opacity_Map.Bush_Opacity_Map]
+[2020.07.19-17.34.24:632][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Bush_Opacity_Map]
+[2020.07.19-17.34.24:632][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Bush_Opacity_Map" FILE="../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Bush_Opacity_Map_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2020.07.19-17.34.24:645][808]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Bush_Opacity_Map_Auto6FEEE659E49DFE0CB6668E4AC6384DF1A.tmp' to '../../../../TC-RFAS/TCRFAS/Saved/Autosaves/Game/Level/Bush_Opacity_Map_Auto6.uasset'
+[2020.07.19-17.34.24:646][808]LogFileHelpers: Auto-saving content packages took 0.360
+[2020.07.19-17.34.28:383][838]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Twilights-Call\Assets\Resources\Objects\Battle\Node\Texture\Texture_Grass.png)
+[2020.07.19-17.34.28:491][838]LogTexture: Display: Building textures: Texture_Grass (AutoDXT, 1500X1500)
+[2020.07.19-17.34.34:657][888]LogMaterial: Display: Missing cached shader map for material Texture_Grass_Mat, compiling. 
+[2020.07.19-17.34.34:681][888]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.07.19-17.34.34:681][888]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.07.19-17.34.34:681][888]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.07.19-17.34.51:674][595]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Twilights-Call\Assets\Resources\Objects\Props\Tree\TreeMaterials\Texture_Tree_Bark.png)
+[2020.07.19-17.34.51:687][595]LogTexture: Display: Building textures: Texture_Tree_Bark (BGRA8, 559X559)
+[2020.07.19-17.34.56:411][858]LogMaterial: Display: Missing cached shader map for material Texture_Tree_Bark_Mat, compiling. 
+[2020.07.19-17.34.56:427][858]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.07.19-17.34.56:427][858]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.07.19-17.34.56:427][858]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.07.19-17.35.19:710][905]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Level/Grass_Material.Grass_Material
+[2020.07.19-17.35.19:745][905]LogMaterial: Display: Missing cached shader map for material Grass_Material, compiling. 
+[2020.07.19-17.35.20:384][905]LogMaterial: Display: Missing cached shader map for material Grass_Material, compiling. 
+[2020.07.19-17.35.20:401][905]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.07.19-17.35.20:401][905]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.07.19-17.35.20:401][905]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.07.19-17.35.20:407][905]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.19-17.35.22:193][  1]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.07.19-17.35.22:348][ 11]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.07.19-17.35.22:718][ 36]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.07.19-17.35.24:125][123]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.07.19-17.35.24:245][132]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.07.19-17.35.24:574][153]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.07.19-17.35.25:902][225]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.07.19-17.35.26:303][245]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.07.19-17.35.26:303][245]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.07.19-17.35.26:330][247]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.07.19-17.35.26:330][247]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.07.19-17.35.26:331][247]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.07.19-17.35.26:331][247]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.19-17.35.26:331][247]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.07.19-17.35.26:331][247]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.19-17.35.28:068][361]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.07.19-17.36.24:019][ 16]LogSlate: Window 'Save Level As' being destroyed
+[2020.07.19-17.36.24:052][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Forest1" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Forest1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.07.19-17.36.24:115][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2020.07.19-17.36.24:150][ 16]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Forest1F1565CF548195EA782E05C9F7B8CD07A.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Forest1.umap'
+[2020.07.19-17.36.24:226][ 16]LogFileHelpers: Saving map 'Forest1' took 0.178
+[2020.07.19-17.36.24:226][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Forest1_BuiltData" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Forest1_BuiltData.uasset" SILENT=true
+[2020.07.19-17.36.24:265][ 16]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Forest1_BuiltData2C8A836D40673DEB6CDD5CAEC6C27D08.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Forest1_BuiltData.uasset'
+[2020.07.19-17.36.24:301][ 16]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-17.36.24:301][ 16]LogContentValidation: Display: Validating World /Game/Level/Forest1.Forest1
+[2020.07.19-17.36.24:301][ 16]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Level/Forest1_BuiltData.Forest1_BuiltData
+[2020.07.19-17.37.09:273][229]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.07.19-17.37.09:305][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/eyes" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/eyes.uasset" SILENT=true
+[2020.07.19-17.37.09:323][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/eyesFFDC34AB4B69B0A2BE23F986BC97CCEB.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/eyes.uasset'
+[2020.07.19-17.37.09:338][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_bracer2" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracer2.uasset" SILENT=true
+[2020.07.19-17.37.09:353][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_bracer22D071F794917E7674829C881EF2584D5.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracer2.uasset'
+[2020.07.19-17.37.09:366][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_bracer3" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracer3.uasset" SILENT=true
+[2020.07.19-17.37.09:382][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_bracer3607AD6DB432B339FC3C6E59EA1593569.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracer3.uasset'
+[2020.07.19-17.37.09:397][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_bracers" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracers.uasset" SILENT=true
+[2020.07.19-17.37.09:416][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_bracers8F69129B4FE364BE739389BE688CEFC2.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracers.uasset'
+[2020.07.19-17.37.09:430][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_breastplate" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_breastplate.uasset" SILENT=true
+[2020.07.19-17.37.09:448][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_breastplate4EE59BEF4DED75EEA60E50B29F9D8375.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_breastplate.uasset'
+[2020.07.19-17.37.09:465][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_cloak_" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_cloak_.uasset" SILENT=true
+[2020.07.19-17.37.09:486][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_cloak_D696521C45755C4796DAF781BE370253.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_cloak_.uasset'
+[2020.07.19-17.37.09:501][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_hair" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_hair.uasset" SILENT=true
+[2020.07.19-17.37.09:543][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_hair546ED69942CB48A28036AB8110A65C3E.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_hair.uasset'
+[2020.07.19-17.37.09:555][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_knee_guard" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_knee_guard.uasset" SILENT=true
+[2020.07.19-17.37.09:575][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_knee_guard45B1A2834E3739AAA7CAD3ADD199C4F7.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_knee_guard.uasset'
+[2020.07.19-17.37.09:587][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_waist_guard" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_waist_guard.uasset" SILENT=true
+[2020.07.19-17.37.09:607][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_waist_guard005C3F5B43D1F4FDD999E1ACA8261203.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_waist_guard.uasset'
+[2020.07.19-17.37.09:618][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/adasdasdasd" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/adasdasdasd.uasset" SILENT=true
+[2020.07.19-17.37.09:629][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/adasdasdasd8D3249094C1C19BEE34BA7BA19BF3B9E.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/adasdasdasd.uasset'
+[2020.07.19-17.37.09:641][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/fide" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide.uasset" SILENT=true
+[2020.07.19-17.37.09:649][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide3860895B4A9F2DA37BBEDC91599F069D.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide.uasset'
+[2020.07.19-17.37.09:663][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/fide_trueattack" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_trueattack.uasset" SILENT=true
+[2020.07.19-17.37.09:688][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_trueattackAA1F123247F8BC075D169CBCAAD2768B.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_trueattack.uasset'
+[2020.07.19-17.37.09:703][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Cloak" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Cloak.uasset" SILENT=true
+[2020.07.19-17.37.09:715][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Cloak9289DD044F2640D0C2B488B43272A36A.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Cloak.uasset'
+[2020.07.19-17.37.09:727][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_knee_guard_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_knee_guard_Mat.uasset" SILENT=true
+[2020.07.19-17.37.09:740][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_knee_guard_MatDE4952A54CCA8E492FBC639A9769BE29.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_knee_guard_Mat.uasset'
+[2020.07.19-17.37.09:752][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/fide_trueattack_cape_Skeleton" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_trueattack_cape_Skeleton.uasset" SILENT=true
+[2020.07.19-17.37.09:765][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_trueattack_cape_Skeleton69064A374878747B0547EB9CBCB309A2.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_trueattack_cape_Skeleton.uasset'
+[2020.07.19-17.37.09:777][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/fide_trueattack_cape_PhysicsAsset" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_trueattack_cape_PhysicsAsset.uasset" SILENT=true
+[2020.07.19-17.37.09:790][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_trueattack_cape_PhysicsAsse92849AC14599E7F3CAD9B08CC13250E2.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_trueattack_cape_PhysicsAsset.uasset'
+[2020.07.19-17.37.09:804][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/fide_trueidle" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_trueidle.uasset" SILENT=true
+[2020.07.19-17.37.09:813][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_trueidle5F43799A4F190EFD0B7015A16B8B025C.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_trueidle.uasset'
+[2020.07.19-17.37.09:825][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/fide_truewalk" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_truewalk.uasset" SILENT=true
+[2020.07.19-17.37.09:854][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_truewalk6AE482E54F31D7799037B8B007339BFB.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_truewalk.uasset'
+[2020.07.19-17.37.09:867][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/fide_truewalk_cape_Skeleton" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_truewalk_cape_Skeleton.uasset" SILENT=true
+[2020.07.19-17.37.09:876][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_truewalk_cape_SkeletonDABA4BBE450A807D1A9652A3F56BB124.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_truewalk_cape_Skeleton.uasset'
+[2020.07.19-17.37.09:889][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/fide_truewalk_cape_PhysicsAsset" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_truewalk_cape_PhysicsAsset.uasset" SILENT=true
+[2020.07.19-17.37.09:904][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_truewalk_cape_PhysicsAsset1ED92C24424D14DA45C5E0BB51540795.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_truewalk_cape_PhysicsAsset.uasset'
+[2020.07.19-17.37.09:919][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/fide_with_mouth" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_with_mouth.uasset" SILENT=true
+[2020.07.19-17.37.09:929][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_with_mouth60C4C17A40E8B558D4059AAB98706BE8.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/fide_with_mouth.uasset'
+[2020.07.19-17.37.09:941][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_waist_guard_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_waist_guard_Mat.uasset" SILENT=true
+[2020.07.19-17.37.09:952][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_waist_guard_Mat74F7DCAF47EB061A6037BFA2C1160300.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_waist_guard_Mat.uasset'
+[2020.07.19-17.37.09:965][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Test_3" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Test_3.uasset" SILENT=true
+[2020.07.19-17.37.09:974][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Test_32F1357DC48867F509B00CF8B5D6297C2.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Test_3.uasset'
+[2020.07.19-17.37.09:986][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Test2" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Test2.uasset" SILENT=true
+[2020.07.19-17.37.09:996][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Test2A72C467B4AC2BFAB27D71E8A4D713379.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Test2.uasset'
+[2020.07.19-17.37.10:008][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Weapon/fide_weapon" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/fide_weapon.uasset" SILENT=true
+[2020.07.19-17.37.10:110][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_weaponB6F4E29740FCAC19F3497CA1CE416D63.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/fide_weapon.uasset'
+[2020.07.19-17.37.10:124][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Weapon/Sword_Hilt" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/Sword_Hilt.uasset" SILENT=true
+[2020.07.19-17.37.10:136][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Sword_HiltB86988EC4150626635CA52A4D8CBC49A.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/Sword_Hilt.uasset'
+[2020.07.19-17.37.10:148][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Weapon/texture_fide_sword_coat_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/texture_fide_sword_coat_Mat.uasset" SILENT=true
+[2020.07.19-17.37.10:161][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/texture_fide_sword_coat_MatF19BF1A4415834D6930CAA94A3B1E86C.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/texture_fide_sword_coat_Mat.uasset'
+[2020.07.19-17.37.10:176][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Weapon/Sword_Coat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/Sword_Coat.uasset" SILENT=true
+[2020.07.19-17.37.10:198][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Sword_Coat0AAA49744D5D26C7318DF4ADC8D7682D.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/Sword_Coat.uasset'
+[2020.07.19-17.37.10:213][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Weapon/texture_fide_sword_coat_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/texture_fide_sword_coat_Mat.uasset" SILENT=true
+[2020.07.19-17.37.10:228][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/texture_fide_sword_coat_Mat7EFD1F7B4E05E542892B13B7952CFABA.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/texture_fide_sword_coat_Mat.uasset'
+[2020.07.19-17.37.10:249][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Weapon/Sword_Metal" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/Sword_Metal.uasset" SILENT=true
+[2020.07.19-17.37.10:264][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Sword_Metal9F0E0E9D420B5FA06CE1DEAF0636D836.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/Sword_Metal.uasset'
+[2020.07.19-17.37.10:276][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Weapon/fide_weapon_hilt_Skeleton" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/fide_weapon_hilt_Skeleton.uasset" SILENT=true
+[2020.07.19-17.37.10:286][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_weapon_hilt_Skeleton277416DE46AD236733F0FBA6552A9A2E.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/fide_weapon_hilt_Skeleton.uasset'
+[2020.07.19-17.37.10:300][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Weapon/fide_weapon_hilt_PhysicsAsset" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/fide_weapon_hilt_PhysicsAsset.uasset" SILENT=true
+[2020.07.19-17.37.10:313][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_weapon_hilt_PhysicsAsset3ABCF5F04E7BAA01A9072BA686A694DB.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/fide_weapon_hilt_PhysicsAsset.uasset'
+[2020.07.19-17.37.10:327][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Weapon/texture_fide_sword_coat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/texture_fide_sword_coat.uasset" SILENT=true
+[2020.07.19-17.37.10:430][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/texture_fide_sword_coat17C454F74698123227049881D68DD379.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/texture_fide_sword_coat.uasset'
+[2020.07.19-17.37.10:445][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Weapon/texture_fide_sword_hilt" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/texture_fide_sword_hilt.uasset" SILENT=true
+[2020.07.19-17.37.10:550][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/texture_fide_sword_hilt99BE1D3144ED2214E3EFA49A6B60A79F.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/texture_fide_sword_hilt.uasset'
+[2020.07.19-17.37.10:569][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/weapon_fide" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/weapon_fide.uasset" SILENT=true
+[2020.07.19-17.37.10:616][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/weapon_fideDA89C2034F1C557E175A69ABD5A4E176.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/weapon_fide.uasset'
+[2020.07.19-17.37.10:632][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/24_-_Default" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/24_-_Default.uasset" SILENT=true
+[2020.07.19-17.37.10:644][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/24_-_Default432C824245B5DD99B6F8129967587F55.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/24_-_Default.uasset'
+[2020.07.19-17.37.10:656][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/weapon_fide_hilt_Skeleton" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/weapon_fide_hilt_Skeleton.uasset" SILENT=true
+[2020.07.19-17.37.10:674][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/weapon_fide_hilt_SkeletonC2C9B48E478A7F57F876449819B0CA61.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/weapon_fide_hilt_Skeleton.uasset'
+[2020.07.19-17.37.10:700][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/weapon_fide_hilt_PhysicsAsset" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/weapon_fide_hilt_PhysicsAsset.uasset" SILENT=true
+[2020.07.19-17.37.10:716][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/weapon_fide_hilt_PhysicsAsset28F44FBE4FD92991A2672E91F2F4DC6B.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/weapon_fide_hilt_PhysicsAsset.uasset'
+[2020.07.19-17.37.10:730][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Weapon/fide_weapon" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/fide_weapon.uasset" SILENT=true
+[2020.07.19-17.37.10:842][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_weapon087A0E3A4AC9E832E82DF2846BC4DF05.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/fide_weapon.uasset'
+[2020.07.19-17.37.10:853][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Weapon/Sword_Hilt" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/Sword_Hilt.uasset" SILENT=true
+[2020.07.19-17.37.10:866][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Sword_HiltB16770DD4AE69A142E1B31BE5E843B89.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/Sword_Hilt.uasset'
+[2020.07.19-17.37.10:877][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Model/Weapon/texture_fide_sword_hilt_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/texture_fide_sword_hilt_Mat.uasset" SILENT=true
+[2020.07.19-17.37.10:890][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/texture_fide_sword_hilt_Mat547377844B44C543E6F279814200639B.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Model/Weapon/texture_fide_sword_hilt_Mat.uasset'
+[2020.07.19-17.37.10:903][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Weapon/Sword_Coat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/Sword_Coat.uasset" SILENT=true
+[2020.07.19-17.37.10:915][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Sword_Coat4764F6584127343EF4ED3CBD67A4A169.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/Sword_Coat.uasset'
+[2020.07.19-17.37.10:926][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Weapon/texture_fide_sword_hilt_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/texture_fide_sword_hilt_Mat.uasset" SILENT=true
+[2020.07.19-17.37.10:937][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/texture_fide_sword_hilt_Mat89BF9C3C4B31C386954043B00FE9540C.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/texture_fide_sword_hilt_Mat.uasset'
+[2020.07.19-17.37.10:950][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Weapon/Sword_Metal" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/Sword_Metal.uasset" SILENT=true
+[2020.07.19-17.37.10:964][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Sword_MetalC6BDFE30403E4A6EC69466B3D04381BA.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/Sword_Metal.uasset'
+[2020.07.19-17.37.10:976][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Weapon/fide_weapon_hilt_Skeleton" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/fide_weapon_hilt_Skeleton.uasset" SILENT=true
+[2020.07.19-17.37.10:985][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_weapon_hilt_Skeleton1EE50DBF48F7EBF03F1ABCBE497C84EC.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/fide_weapon_hilt_Skeleton.uasset'
+[2020.07.19-17.37.10:998][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Weapon/fide_weapon_hilt_PhysicsAsset" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/fide_weapon_hilt_PhysicsAsset.uasset" SILENT=true
+[2020.07.19-17.37.11:010][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_weapon_hilt_PhysicsAsset56E307DC4485B0828945079B350B8432.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/fide_weapon_hilt_PhysicsAsset.uasset'
+[2020.07.19-17.37.11:023][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Weapon/texture_fide_sword_coat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/texture_fide_sword_coat.uasset" SILENT=true
+[2020.07.19-17.37.11:123][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/texture_fide_sword_coat2FE534D04CC4C22E329992B06BF540BF.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/texture_fide_sword_coat.uasset'
+[2020.07.19-17.37.11:137][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Weapon/texture_fide_sword_hilt" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/texture_fide_sword_hilt.uasset" SILENT=true
+[2020.07.19-17.37.11:242][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/texture_fide_sword_hilt568576BF4C9EE7743E9F1CA0ADC6D2D2.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Weapon/texture_fide_sword_hilt.uasset'
+[2020.07.19-17.37.11:254][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/eyes_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/eyes_Mat.uasset" SILENT=true
+[2020.07.19-17.37.11:269][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/eyes_MatD33BE61A448BC72DBCC24BA036C7A08E.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/eyes_Mat.uasset'
+[2020.07.19-17.37.11:281][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_bracer2_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracer2_Mat.uasset" SILENT=true
+[2020.07.19-17.37.11:299][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_bracer2_MatB4177A7047D219F6A3B584B8133E0280.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracer2_Mat.uasset'
+[2020.07.19-17.37.11:310][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_bracer3_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracer3_Mat.uasset" SILENT=true
+[2020.07.19-17.37.11:322][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_bracer3_Mat34D273B94EA98FFE14E084888F904870.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracer3_Mat.uasset'
+[2020.07.19-17.37.11:336][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_bracers_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracers_Mat.uasset" SILENT=true
+[2020.07.19-17.37.11:350][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_bracers_MatDB6EEC494FF109839F3CDBAB6460EF45.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_bracers_Mat.uasset'
+[2020.07.19-17.37.11:363][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_breastplate_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_breastplate_Mat.uasset" SILENT=true
+[2020.07.19-17.37.11:374][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_breastplate_Mat5ECE912245EE0C7D92D4ABB2091649EE.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_breastplate_Mat.uasset'
+[2020.07.19-17.37.11:386][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_cloak__Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_cloak__Mat.uasset" SILENT=true
+[2020.07.19-17.37.11:400][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_cloak__MatEAF78E194BBEA152771AB4987640D3B6.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_cloak__Mat.uasset'
+[2020.07.19-17.37.11:411][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_hair_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_hair_Mat.uasset" SILENT=true
+[2020.07.19-17.37.11:424][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_hair_Mat79A56D4A4DF09072F2B17BB25D94676B.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_hair_Mat.uasset'
+[2020.07.19-17.37.11:438][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_truewalk" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_truewalk.uasset" SILENT=true
+[2020.07.19-17.37.11:466][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_truewalkEA2CD77E433ED92F87C0E887DF5CDA76.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_truewalk.uasset'
+[2020.07.19-17.37.11:479][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/Cloak" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/Cloak.uasset" SILENT=true
+[2020.07.19-17.37.11:491][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/CloakBFF38F894A782BD4365E7690EC737C21.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/Cloak.uasset'
+[2020.07.19-17.37.11:505][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/vella_trueidle" FILE="../../../../TC-RFAS/TCRFAS/Content/vella_trueidle.uasset" SILENT=true
+[2020.07.19-17.37.11:513][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/vella_trueidle2386D9A74D87C9744C8D7A8849F6A3C1.tmp' to '../../../../TC-RFAS/TCRFAS/Content/vella_trueidle.uasset'
+[2020.07.19-17.37.11:525][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Fide/Materials/Textures/fide_truewalk_cape_Skeleton" FILE="../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_truewalk_cape_Skeleton.uasset" SILENT=true
+[2020.07.19-17.37.11:536][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_truewalk_cape_Skeleton0E72DD074D2B5CFA07D132AD7CB4EE31.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_truewalk_cape_Skeleton.uasset'
+[2020.07.19-17.37.11:559][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/fide_truewalk_cape_PhysicsAsset4A3AEAC64B4206195B6A5DACFED96A58.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Fide/Materials/Textures/fide_truewalk_cape_PhysicsAsset.uasset'
+[2020.07.19-17.37.11:571][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Arena" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Arena.uasset" SILENT=true
+[2020.07.19-17.37.11:631][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/ArenaD3EF7E57461E9EA4F690F1851EEA8AF9.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Arena.uasset'
+[2020.07.19-17.37.11:643][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Tree_Material" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Tree_Material.uasset" SILENT=true
+[2020.07.19-17.37.11:659][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Tree_Material0CDEC9374C173E725F3834962C84A79F.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Tree_Material.uasset'
+[2020.07.19-17.37.11:672][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Tree_Diffuse" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Tree_Diffuse.uasset" SILENT=true
+[2020.07.19-17.37.11:765][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Tree_DiffuseF124FF904C6E99F8854E13B0B88A426D.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Tree_Diffuse.uasset'
+[2020.07.19-17.37.11:776][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Rock_Material" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Rock_Material.uasset" SILENT=true
+[2020.07.19-17.37.11:788][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Rock_Material1D3A3F2844DA0314E2CB93B4B1856928.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Rock_Material.uasset'
+[2020.07.19-17.37.11:801][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Rock_Diffuse" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Rock_Diffuse.uasset" SILENT=true
+[2020.07.19-17.37.12:030][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Rock_DiffuseF725DE0844BE32707715CA9F1B1BA0C2.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Rock_Diffuse.uasset'
+[2020.07.19-17.37.12:041][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Grass_Material" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Grass_Material.uasset" SILENT=true
+[2020.07.19-17.37.12:052][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Grass_MaterialB04E27CD4FBCB04B27A750B96F2FE449.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Grass_Material.uasset'
+[2020.07.19-17.37.12:064][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Grass_Diffuse" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Grass_Diffuse.uasset" SILENT=true
+[2020.07.19-17.37.12:332][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Grass_DiffuseF85AD60140FF7954B7977587DAA1CC9B.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Grass_Diffuse.uasset'
+[2020.07.19-17.37.12:339][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Bush_Material" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Bush_Material.uasset" SILENT=true
+[2020.07.19-17.37.12:350][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Bush_Material2471BBE24C754D6B62F4C7AC5E2DCAE8.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Bush_Material.uasset'
+[2020.07.19-17.37.12:357][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Bush" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Bush.uasset" SILENT=true
+[2020.07.19-17.37.12:432][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Bush81E7E55C474B63E90A531CBA466342B2.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Bush.uasset'
+[2020.07.19-17.37.12:438][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Bush_Opacity_Map" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Bush_Opacity_Map.uasset" SILENT=true
+[2020.07.19-17.37.12:480][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Bush_Opacity_Map3435AEBF42C5A1D4EA49839ADA00A6A3.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Bush_Opacity_Map.uasset'
+[2020.07.19-17.37.12:497][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Texture_Grass" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Texture_Grass.uasset" SILENT=true
+[2020.07.19-17.37.12:702][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Texture_Grass385CE6E04FB9AA49FEE2398FFCFA5EE1.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Texture_Grass.uasset'
+[2020.07.19-17.37.12:738][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Texture_Grass_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Texture_Grass_Mat.uasset" SILENT=true
+[2020.07.19-17.37.12:756][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Texture_Grass_MatFBBD612944FC3976943C3AA8EE01D4B8.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Texture_Grass_Mat.uasset'
+[2020.07.19-17.37.12:771][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Texture_Tree_Bark" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Texture_Tree_Bark.uasset" SILENT=true
+[2020.07.19-17.37.12:809][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Texture_Tree_Bark017C6B5645E65BAD7806379624CD1B2A.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Texture_Tree_Bark.uasset'
+[2020.07.19-17.37.12:839][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Texture_Tree_Bark_Mat" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Texture_Tree_Bark_Mat.uasset" SILENT=true
+[2020.07.19-17.37.12:856][229]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Texture_Tree_Bark_MatB0E410494FFFC78D3D725F875B7C31CA.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Texture_Tree_Bark_Mat.uasset'
+[2020.07.19-17.37.13:386][229]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Materials/Textures/eyes.eyes
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Materials/Textures/fide_bracer2.fide_bracer2
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Materials/Textures/fide_bracer3.fide_bracer3
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Materials/Textures/fide_bracers.fide_bracers
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Materials/Textures/fide_breastplate.fide_breastplate
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Materials/Textures/fide_cloak_.fide_cloak_
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Materials/Textures/fide_hair.fide_hair
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Materials/Textures/fide_knee_guard.fide_knee_guard
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Materials/Textures/fide_waist_guard.fide_waist_guard
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating SkeletalMesh /Game/Fide/Model/fide_trueattack.fide_trueattack_cape
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Material /Game/Fide/Model/Cloak.Cloak
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Material /Game/Fide/Materials/Textures/fide_knee_guard_Mat.fide_knee_guard_Mat
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Skeleton /Game/Fide/Model/fide_trueattack_cape_Skeleton.fide_trueattack_cape_Skeleton
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating PhysicsAsset /Game/Fide/Model/fide_trueattack_cape_PhysicsAsset.fide_trueattack_cape_PhysicsAsset
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating SkeletalMesh /Game/Fide/Model/fide_truewalk.fide_truewalk_cape
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Skeleton /Game/Fide/Model/fide_truewalk_cape_Skeleton.fide_truewalk_cape_Skeleton
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating PhysicsAsset /Game/Fide/Model/fide_truewalk_cape_PhysicsAsset.fide_truewalk_cape_PhysicsAsset
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Material /Game/Fide/Materials/Textures/fide_waist_guard_Mat.fide_waist_guard_Mat
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating SkeletalMesh /Game/Fide/Model/Weapon/fide_weapon.fide_weapon_hilt
+[2020.07.19-17.37.13:386][229]LogContentValidation: Display: Validating Material /Game/Fide/Model/Weapon/Sword_Hilt.Sword_Hilt
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Model/Weapon/texture_fide_sword_coat_Mat.texture_fide_sword_coat_Mat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Model/Weapon/Sword_Coat.Sword_Coat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Weapon/texture_fide_sword_coat_Mat.texture_fide_sword_coat_Mat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Model/Weapon/Sword_Metal.Sword_Metal
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Skeleton /Game/Fide/Model/Weapon/fide_weapon_hilt_Skeleton.fide_weapon_hilt_Skeleton
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating PhysicsAsset /Game/Fide/Model/Weapon/fide_weapon_hilt_PhysicsAsset.fide_weapon_hilt_PhysicsAsset
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Model/Weapon/texture_fide_sword_coat.texture_fide_sword_coat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Model/Weapon/texture_fide_sword_hilt.texture_fide_sword_hilt
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating SkeletalMesh /Game/Fide/Model/weapon_fide.weapon_fide_hilt
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Model/24_-_Default.24_-_Default
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Skeleton /Game/Fide/Model/weapon_fide_hilt_Skeleton.weapon_fide_hilt_Skeleton
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating PhysicsAsset /Game/Fide/Model/weapon_fide_hilt_PhysicsAsset.weapon_fide_hilt_PhysicsAsset
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating SkeletalMesh /Game/Fide/Weapon/fide_weapon.fide_weapon_hilt
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Weapon/Sword_Hilt.Sword_Hilt
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Model/Weapon/texture_fide_sword_hilt_Mat.texture_fide_sword_hilt_Mat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Weapon/Sword_Coat.Sword_Coat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Weapon/texture_fide_sword_hilt_Mat.texture_fide_sword_hilt_Mat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Weapon/Sword_Metal.Sword_Metal
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Skeleton /Game/Fide/Weapon/fide_weapon_hilt_Skeleton.fide_weapon_hilt_Skeleton
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating PhysicsAsset /Game/Fide/Weapon/fide_weapon_hilt_PhysicsAsset.fide_weapon_hilt_PhysicsAsset
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Weapon/texture_fide_sword_coat.texture_fide_sword_coat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Texture2D /Game/Fide/Weapon/texture_fide_sword_hilt.texture_fide_sword_hilt
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Materials/Textures/eyes_Mat.eyes_Mat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Materials/Textures/fide_bracer2_Mat.fide_bracer2_Mat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Materials/Textures/fide_bracer3_Mat.fide_bracer3_Mat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Materials/Textures/fide_bracers_Mat.fide_bracers_Mat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Materials/Textures/fide_breastplate_Mat.fide_breastplate_Mat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Materials/Textures/fide_cloak__Mat.fide_cloak__Mat
+[2020.07.19-17.37.13:387][229]LogContentValidation: Display: Validating Material /Game/Fide/Materials/Textures/fide_hair_Mat.fide_hair_Mat
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating SkeletalMesh /Game/Fide/Materials/Textures/fide_truewalk.fide_truewalk_cape
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Material /Game/Fide/Materials/Textures/Cloak.Cloak
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Skeleton /Game/Fide/Materials/Textures/fide_truewalk_cape_Skeleton.fide_truewalk_cape_Skeleton
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating PhysicsAsset /Game/Fide/Materials/Textures/fide_truewalk_cape_PhysicsAsset.fide_truewalk_cape_PhysicsAsset
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating StaticMesh /Game/Level/Arena.Arena
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Material /Game/Level/Tree_Material.Tree_Material
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Texture2D /Game/Level/Tree_Diffuse.Tree_Diffuse
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Material /Game/Level/Rock_Material.Rock_Material
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Texture2D /Game/Level/Rock_Diffuse.Rock_Diffuse
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Material /Game/Level/Grass_Material.Grass_Material
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Texture2D /Game/Level/Grass_Diffuse.Grass_Diffuse
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Material /Game/Level/Bush_Material.Bush_Material
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Texture2D /Game/Level/Bush.Bush
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Texture2D /Game/Level/Bush_Opacity_Map.Bush_Opacity_Map
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Texture2D /Game/Level/Texture_Grass.Texture_Grass
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Material /Game/Level/Texture_Grass_Mat.Texture_Grass_Mat
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Texture2D /Game/Level/Texture_Tree_Bark.Texture_Tree_Bark
+[2020.07.19-17.37.13:388][229]LogContentValidation: Display: Validating Material /Game/Level/Texture_Tree_Bark_Mat.Texture_Tree_Bark_Mat
+[2020.07.19-17.37.13:826][231]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Arena)
+[2020.07.19-17.37.24:079][216]LogActor: Warning: MySigma_C /Game/Level/Forest1.Forest1:PersistentLevel.MySigma_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-17.37.25:143][311]LogActor: Warning: MySigma_C /Game/Level/Forest1.Forest1:PersistentLevel.MySigma_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.19-17.37.45:216][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Arena)
+[2020.07.19-17.38.50:274][392]LogEditorViewport: Clicking on Actor (LMB): MySigma_C (MySigma)
+[2020.07.19-17.39.27:443][186]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.07.19-17.39.27:443][186]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.07.19-17.40.31:562][700]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.07.19-17.41.35:471][118]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.07.19-17.41.47:198][407]Running F:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="F:/TC-RFAS/TCRFAS/TCRFAS.uproject" -game -rocket -progress
+[2020.07.19-17.41.47:708][407]Discovering modules, targets and source code for project...
+[2020.07.19-17.41.50:335][407]Binding IntelliSense data...
+[2020.07.19-17.41.53:033][407]Binding IntelliSense data... 100%
+[2020.07.19-17.41.53:033][407]Writing project files...
+[2020.07.19-17.41.56:873][407]Writing project files... 100%
+[2020.07.19-17.41.56:981][407]Candidate modules for hot reload:
+[2020.07.19-17.41.56:981][407]  TCRFAS
+[2020.07.19-17.41.56:981][407]Launching UnrealBuildTool... [F:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TCRFAS,5944 TCRFASEditor Win64 Development -Project="F:/TC-RFAS/TCRFAS/TCRFAS.uproject" "F:/TC-RFAS/TCRFAS/TCRFAS.uproject"  -IgnoreJunk]
+[2020.07.19-17.42.12:026][407]CompilerResultsLog: New page: Compilation - Jul 19, 2020, 9:42:12 AM
+[2020.07.19-17.42.12:027][407]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\TC-RFAS).
+[2020.07.19-17.42.12:027][407]CompilerResultsLog: Creating makefile for TCRFASEditor (no existing makefile)
+[2020.07.19-17.42.12:027][407]CompilerResultsLog: Parsing headers for TCRFASEditor
+[2020.07.19-17.42.12:027][407]CompilerResultsLog:   Running UnrealHeaderTool "F:\TC-RFAS\TCRFAS\TCRFAS.uproject" "F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\TCRFASEditor\Development\TCRFASEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kylej\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.19-17.42.12:027][407]CompilerResultsLog: Reflection code generated for TCRFASEditor in 7.7073977 seconds
+[2020.07.19-17.42.12:027][407]CompilerResultsLog: Building TCRFASEditor...
+[2020.07.19-17.42.12:027][407]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.19-17.42.12:027][407]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.07.19-17.42.12:027][407]CompilerResultsLog:   [1/6] TCRFAS.init.gen.cpp
+[2020.07.19-17.42.12:027][407]CompilerResultsLog:   [2/6] CameraManager.cpp
+[2020.07.19-17.42.12:027][407]CompilerResultsLog:   [3/6] CameraManager.gen.cpp
+[2020.07.19-17.42.12:027][407]CompilerResultsLog:   [4/6] UE4Editor-TCRFAS-5944.lib
+[2020.07.19-17.42.12:027][407]CompilerResultsLog:      Creating library F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Development\TCRFAS\UE4Editor-TCRFAS-5944.lib and object F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Development\TCRFAS\UE4Editor-TCRFAS-5944.exp
+[2020.07.19-17.42.12:027][407]CompilerResultsLog:   [5/6] UE4Editor-TCRFAS-5944.dll
+[2020.07.19-17.42.12:027][407]CompilerResultsLog:      Creating library F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Development\TCRFAS\UE4Editor-TCRFAS-5944.suppressed.lib and object F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Development\TCRFAS\UE4Editor-TCRFAS-5944.suppressed.exp
+[2020.07.19-17.42.12:027][407]CompilerResultsLog:   [6/6] TCRFASEditor.target
+[2020.07.19-17.42.12:027][407]CompilerResultsLog: Total time in Parallel executor: 4.43 seconds
+[2020.07.19-17.42.12:027][407]CompilerResultsLog: Total execution time: 14.92 seconds
+[2020.07.19-17.42.12:027][407]LogMainFrame: MainFrame: Module compiling took 15.051 seconds
+[2020.07.19-17.42.12:059][407]LogClass: Could not find existing class CameraManager in package /Script/TCRFAS for HotReload, assuming new class
+[2020.07.19-17.42.12:067][407]LogClass: Charactertype HotReload.
+[2020.07.19-17.42.12:067][407]LogClass: DomainStages HotReload.
+[2020.07.19-17.42.12:067][407]LogClass: CreaturesAilment HotReload.
+[2020.07.19-17.42.12:067][407]LogClass: ElementalTypes HotReload.
+[2020.07.19-17.42.12:073][407]LogContentBrowser: Native class hierarchy updated for 'TCRFAS' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2020.07.19-17.42.12:079][407]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.19-17.42.12:229][407]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 3431 classes and 823 folders.
+[2020.07.19-17.42.12:229][407]Display: HotReload took 15.3s.
+[2020.07.19-17.42.12:254][407]Warning: HotReload operation took 15.3s.
+[2020.07.19-17.42.12:309][407]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.07.19-17.42.13:137][407]LogHotReload: New module detected: UE4Editor-TCRFAS-5944.dll
+[2020.07.19-17.42.13:502][408]LogHotReload: Starting Hot-Reload from IDE
+[2020.07.19-17.42.13:543][408]LogContentBrowser: Native class hierarchy updated for 'TCRFAS' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2020.07.19-17.42.13:550][408]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.07.19-17.42.13:574][408]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 3431 classes and 823 folders.
+[2020.07.19-17.42.13:580][408]Display: HotReload took  0.1s.
+[2020.07.19-17.43.54:577][785]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.07.19-17.43.54:577][785]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.07.19-17.43.58:258][ 34]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.07.19-17.44.36:928][723]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.07.19-17.44.39:435][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Forest1" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Forest1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.07.19-17.44.39:573][993]LogUObjectHash: Compacting FUObjectHashTables data took   6.04ms
+[2020.07.19-17.44.39:603][993]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Forest1BF6A63E84B6D3BBA7F259982B143DFF5.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Forest1.umap'
+[2020.07.19-17.44.39:645][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Forest1_BuiltData" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Forest1_BuiltData.uasset" SILENT=true
+[2020.07.19-17.44.39:669][993]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Forest1_BuiltData1068EC1A4ED0A908CC19DA8BB2DFF9F8.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Forest1_BuiltData.uasset'
+[2020.07.19-17.44.39:693][993]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.19-17.44.39:693][993]LogContentValidation: Display: Validating World /Game/Level/Forest1.Forest1
+[2020.07.19-17.44.39:693][993]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Level/Forest1_BuiltData.Forest1_BuiltData
+[2020.07.19-17.44.41:562][159]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.07.19-17.44.46:748][225]LogSlate: Window 'Message' being destroyed
+[2020.07.19-17.44.46:755][225]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Level/Grass_Material.Grass_Material
+(Selecting 'No' will cause all changes to be lost!)
+[2020.07.19-17.44.51:501][225]LogMaterial: Display: Missing cached shader map for material Grass_Material, compiling. 
+[2020.07.19-17.44.51:557][225]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.07.19-17.44.51:557][225]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.07.19-17.44.51:557][225]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.07.19-17.44.51:580][225]LogMaterial: Display: Missing cached shader map for material Grass_Material, compiling. 
+[2020.07.19-17.44.51:651][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.19-17.44.51:666][225]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.07.19-17.44.52:808][225]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2020.07.19-17.44.53:369][225]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.07.19-17.44.54:492][225]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2020.07.19-17.44.54:492][225]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2020.07.19-17.44.55:052][225]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.07.19-17.44.56:173][225]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.07.19-17.44.56:173][225]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2020.07.19-17.44.56:730][225]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.07.19-17.44.56:730][225]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2020.07.19-17.44.57:082][225]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.07.19-17.44.57:082][225]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.07.19-17.44.57:096][225]TextureStreamingBuild: Display: Compiling optional shaders took 5.441 seconds.
+[2020.07.19-17.45.01:946][225]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.07.19-17.45.01:946][225]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.07.19-17.45.01:946][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.07.19-17.45.02:252][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.07.19-17.45.45:705][225]LogSlate: Window 'Save Content' being destroyed
+[2020.07.19-17.45.45:816][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Grass_Material" FILE="../../../../TC-RFAS/TCRFAS/Content/Level/Grass_Material.uasset" SILENT=true
+[2020.07.19-17.45.45:848][225]LogSavePackage: Moving '../../../../TC-RFAS/TCRFAS/Saved/Grass_Material87F49ACA49BB921208B264AB5BAE0AEA.tmp' to '../../../../TC-RFAS/TCRFAS/Content/Level/Grass_Material.uasset'
+[2020.07.19-17.45.46:215][225]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-17.45.46:215][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-17.45.46:411][225]LogSlate: Window 'Grass_Material' being destroyed
+[2020.07.19-17.45.46:474][225]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-17.45.46:474][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.19-17.45.46:576][225]LogSlate: Window 'Project Settings' being destroyed
+[2020.07.19-17.45.46:966][225]LogSlate: Window 'TCRFAS - Unreal Editor' being destroyed
+[2020.07.19-17.45.46:968][225]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.19-17.45.47:341][225]AssetCheck: New page: Asset Save: Grass_Material
+[2020.07.19-17.45.47:341][225]LogContentValidation: Display: Validating Material /Game/Level/Grass_Material.Grass_Material
+[2020.07.19-17.45.47:348][226]Cmd: QUIT_EDITOR
+[2020.07.19-17.45.47:348][226]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.07.19-17.45.47:433][226]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.07.19-17.45.48:047][226]LogExit: Preparing to exit.
+[2020.07.19-17.45.49:379][226]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-17.45.49:389][226]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-17.45.49:393][226]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-17.45.49:396][226]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-17.45.49:400][226]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-17.45.49:591][226]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.07.19-17.45.49:730][226]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.07.19-17.45.49:737][226]LogExit: Editor shut down
+[2020.07.19-17.45.49:738][226]LogExit: Transaction tracking system shut down
+[2020.07.19-17.45.50:642][226]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000022F8D8482C0), frame # 708226
+[2020.07.19-17.45.50:642][226]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022F8E386AC0), frame # 708226
+[2020.07.19-17.45.50:648][226]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022F8D7DE000), frame # 708226
+[2020.07.19-17.45.51:623][226]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022F95F0BE00), frame # 708226
+[2020.07.19-17.45.51:623][226]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022F95F90900), frame # 708226
+[2020.07.19-17.45.51:965][226]LogExit: Object subsystem successfully closed.
+[2020.07.19-17.45.52:137][226]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.07.19-17.45.53:374][226]LogModuleManager: Shutting down and abandoning module TCRFAS (813)
+[2020.07.19-17.45.53:374][226]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (811)
+[2020.07.19-17.45.53:374][226]LogModuleManager: Shutting down and abandoning module Voice (809)
+[2020.07.19-17.45.53:391][226]LogModuleManager: Shutting down and abandoning module BlueprintGraph (804)
+[2020.07.19-17.45.53:391][226]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (796)
+[2020.07.19-17.45.53:405][226]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (794)
+[2020.07.19-17.45.53:405][226]LogModuleManager: Shutting down and abandoning module AddContentDialog (792)
+[2020.07.19-17.45.53:463][226]LogModuleManager: Shutting down and abandoning module WidgetCarousel (791)
+[2020.07.19-17.45.53:463][226]LogModuleManager: Shutting down and abandoning module EditorWidgets (788)
+[2020.07.19-17.45.53:463][226]LogModuleManager: Shutting down and abandoning module CollectionManager (786)
+[2020.07.19-17.45.53:474][226]LogModuleManager: Shutting down and abandoning module SceneOutliner (784)
+[2020.07.19-17.45.53:474][226]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (782)
+[2020.07.19-17.45.53:489][226]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
+[2020.07.19-17.45.53:500][226]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
+[2020.07.19-17.45.53:501][226]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
+[2020.07.19-17.45.53:516][226]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
+[2020.07.19-17.45.53:539][226]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
+[2020.07.19-17.45.53:550][226]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
+[2020.07.19-17.45.53:550][226]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
+[2020.07.19-17.45.53:550][226]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
+[2020.07.19-17.45.53:595][226]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
+[2020.07.19-17.45.53:604][226]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
+[2020.07.19-17.45.53:611][226]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
+[2020.07.19-17.45.53:611][226]LogModuleManager: Shutting down and abandoning module OculusMR (758)
+[2020.07.19-17.45.53:622][226]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
+[2020.07.19-17.45.53:622][226]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
+[2020.07.19-17.45.53:622][226]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
+[2020.07.19-17.45.53:643][226]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
+[2020.07.19-17.45.53:664][226]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
+[2020.07.19-17.45.53:687][226]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
+[2020.07.19-17.45.53:699][226]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
+[2020.07.19-17.45.53:699][226]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
+[2020.07.19-17.45.53:699][226]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
+[2020.07.19-17.45.53:699][226]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
+[2020.07.19-17.45.53:699][226]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
+[2020.07.19-17.45.53:705][226]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
+[2020.07.19-17.45.53:715][226]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
+[2020.07.19-17.45.53:729][226]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
+[2020.07.19-17.45.53:738][226]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
+[2020.07.19-17.45.53:738][226]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
+[2020.07.19-17.45.53:738][226]LogModuleManager: Shutting down and abandoning module BspMode (702)
+[2020.07.19-17.45.53:746][226]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
+[2020.07.19-17.45.53:747][226]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
+[2020.07.19-17.45.53:747][226]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
+[2020.07.19-17.45.53:757][226]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
+[2020.07.19-17.45.53:757][226]LogModuleManager: Shutting down and abandoning module SessionServices (692)
+[2020.07.19-17.45.53:757][226]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
+[2020.07.19-17.45.53:773][226]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
+[2020.07.19-17.45.53:773][226]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
+[2020.07.19-17.45.53:773][226]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
+[2020.07.19-17.45.53:811][226]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
+[2020.07.19-17.45.53:832][226]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
+[2020.07.19-17.45.53:842][226]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
+[2020.07.19-17.45.53:848][226]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
+[2020.07.19-17.45.53:848][226]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
+[2020.07.19-17.45.53:848][226]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
+[2020.07.19-17.45.53:848][226]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
+[2020.07.19-17.45.53:848][226]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
+[2020.07.19-17.45.54:798][226]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
+[2020.07.19-17.45.54:798][226]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
+[2020.07.19-17.45.54:798][226]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
+[2020.07.19-17.45.54:798][226]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
+[2020.07.19-17.45.54:798][226]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
+[2020.07.19-17.45.54:835][226]LogModuleManager: Shutting down and abandoning module TraceServices (657)
+[2020.07.19-17.45.54:847][226]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
+[2020.07.19-17.45.54:858][226]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
+[2020.07.19-17.45.54:859][226]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
+[2020.07.19-17.45.54:859][226]LogModuleManager: Shutting down and abandoning module MergeActors (648)
+[2020.07.19-17.45.54:893][226]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
+[2020.07.19-17.45.54:904][226]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
+[2020.07.19-17.45.54:911][226]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
+[2020.07.19-17.45.54:911][226]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
+[2020.07.19-17.45.54:919][226]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
+[2020.07.19-17.45.54:922][226]LogModuleManager: Shutting down and abandoning module XmlParser (636)
+[2020.07.19-17.45.54:934][226]LogModuleManager: Shutting down and abandoning module Blutility (634)
+[2020.07.19-17.45.54:934][226]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
+[2020.07.19-17.45.54:934][226]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
+[2020.07.19-17.45.54:934][226]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
+[2020.07.19-17.45.54:934][226]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
+[2020.07.19-17.45.54:935][226]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
+[2020.07.19-17.45.54:953][226]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
+[2020.07.19-17.45.54:962][226]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
+[2020.07.19-17.45.54:973][226]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
+[2020.07.19-17.45.54:981][226]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
+[2020.07.19-17.45.55:014][226]LogModuleManager: Shutting down and abandoning module AutomationController (614)
+[2020.07.19-17.45.55:023][226]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
+[2020.07.19-17.45.55:034][226]LogModuleManager: Shutting down and abandoning module Layers (610)
+[2020.07.19-17.45.55:054][226]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
+[2020.07.19-17.45.55:054][226]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
+[2020.07.19-17.45.55:054][226]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
+[2020.07.19-17.45.55:057][226]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
+[2020.07.19-17.45.55:069][226]LogModuleManager: Shutting down and abandoning module Persona (600)
+[2020.07.19-17.45.55:077][226]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
+[2020.07.19-17.45.55:077][226]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
+[2020.07.19-17.45.55:081][226]LogModuleManager: Shutting down and abandoning module Kismet (594)
+[2020.07.19-17.45.55:129][226]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
+[2020.07.19-17.45.55:138][226]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
+[2020.07.19-17.45.55:138][226]LogModuleManager: Shutting down and abandoning module StructViewer (588)
+[2020.07.19-17.45.55:138][226]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
+[2020.07.19-17.45.55:140][226]LogModuleManager: Shutting down and abandoning module Toolbox (584)
+[2020.07.19-17.45.55:140][226]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
+[2020.07.19-17.45.55:145][226]LogModuleManager: Shutting down and abandoning module OutputLog (580)
+[2020.07.19-17.45.55:150][226]LogModuleManager: Shutting down and abandoning module GammaUI (578)
+[2020.07.19-17.45.55:156][226]LogModuleManager: Shutting down and abandoning module Documentation (576)
+[2020.07.19-17.45.55:156][226]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
+[2020.07.19-17.45.55:174][226]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
+[2020.07.19-17.45.55:174][226]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
+[2020.07.19-17.45.55:174][226]LogModuleManager: Shutting down and abandoning module MovieScene (568)
+[2020.07.19-17.45.55:195][226]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
+[2020.07.19-17.45.55:209][226]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
+[2020.07.19-17.45.55:209][226]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
+[2020.07.19-17.45.55:209][226]LogModuleManager: Shutting down and abandoning module PortalServices (560)
+[2020.07.19-17.45.55:209][226]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
+[2020.07.19-17.45.55:209][226]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
+[2020.07.19-17.45.55:209][226]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
+[2020.07.19-17.45.55:209][226]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
+[2020.07.19-17.45.55:209][226]LogModuleManager: Shutting down and abandoning module AIModule (550)
+[2020.07.19-17.45.55:210][226]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+[2020.07.19-17.45.55:211][226]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+[2020.07.19-17.45.55:211][226]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+[2020.07.19-17.45.55:211][226]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
+[2020.07.19-17.45.55:389][226]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
+[2020.07.19-17.45.55:410][226]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2020.07.19-17.45.55:410][226]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
+[2020.07.19-17.45.55:410][226]LogModuleManager: Shutting down and abandoning module Synthesis (534)
+[2020.07.19-17.45.55:558][226]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
+[2020.07.19-17.45.55:558][226]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
+[2020.07.19-17.45.55:558][226]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
+[2020.07.19-17.45.55:589][226]LogModuleManager: Shutting down and abandoning module OculusInput (526)
+[2020.07.19-17.45.55:589][226]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
+[2020.07.19-17.45.55:589][226]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2020.07.19-17.45.55:589][226]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2020.07.19-17.45.55:614][226]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2020.07.19-17.45.55:614][226]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2020.07.19-17.45.55:639][226]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2020.07.19-17.45.55:639][226]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2020.07.19-17.45.55:676][226]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2020.07.19-17.45.55:676][226]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2020.07.19-17.45.55:676][226]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2020.07.19-17.45.55:676][226]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2020.07.19-17.45.55:676][226]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2020.07.19-17.45.55:676][226]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
+[2020.07.19-17.45.55:712][226]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
+[2020.07.19-17.45.55:731][226]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2020.07.19-17.45.55:731][226]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
+[2020.07.19-17.45.55:739][226]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
+[2020.07.19-17.45.55:805][226]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
+[2020.07.19-17.45.55:805][226]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
+[2020.07.19-17.45.55:805][226]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
+[2020.07.19-17.45.55:805][226]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
+[2020.07.19-17.45.55:805][226]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
+[2020.07.19-17.45.55:840][226]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
+[2020.07.19-17.45.55:840][226]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
+[2020.07.19-17.45.55:840][226]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2020.07.19-17.45.55:840][226]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2020.07.19-17.45.55:840][226]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2020.07.19-17.45.55:840][226]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2020.07.19-17.45.55:840][226]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2020.07.19-17.45.55:867][226]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2020.07.19-17.45.55:995][226]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2020.07.19-17.45.56:067][226]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2020.07.19-17.45.56:080][226]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2020.07.19-17.45.56:131][226]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2020.07.19-17.45.56:138][226]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2020.07.19-17.45.56:187][226]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2020.07.19-17.45.56:187][226]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2020.07.19-17.45.56:187][226]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2020.07.19-17.45.56:187][226]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2020.07.19-17.45.56:187][226]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2020.07.19-17.45.56:187][226]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2020.07.19-17.45.56:187][226]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2020.07.19-17.45.56:187][226]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2020.07.19-17.45.56:245][226]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2020.07.19-17.45.56:245][226]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2020.07.19-17.45.56:259][226]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2020.07.19-17.45.56:291][226]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2020.07.19-17.45.56:291][226]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2020.07.19-17.45.56:291][226]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2020.07.19-17.45.56:291][226]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2020.07.19-17.45.56:291][226]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2020.07.19-17.45.56:291][226]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2020.07.19-17.45.56:291][226]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2020.07.19-17.45.56:299][226]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2020.07.19-17.45.56:386][226]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2020.07.19-17.45.56:386][226]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2020.07.19-17.45.56:450][226]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2020.07.19-17.45.56:480][226]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2020.07.19-17.45.56:488][226]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2020.07.19-17.45.56:492][226]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2020.07.19-17.45.56:549][226]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2020.07.19-17.45.56:550][226]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2020.07.19-17.45.56:550][226]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2020.07.19-17.45.56:618][226]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2020.07.19-17.45.56:618][226]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2020.07.19-17.45.56:618][226]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2020.07.19-17.45.56:691][226]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2020.07.19-17.45.56:691][226]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2020.07.19-17.45.56:728][226]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2020.07.19-17.45.56:767][226]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2020.07.19-17.45.56:805][226]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2020.07.19-17.45.56:816][226]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2020.07.19-17.45.56:816][226]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2020.07.19-17.45.56:816][226]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2020.07.19-17.45.56:816][226]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2020.07.19-17.45.56:816][226]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2020.07.19-17.45.56:816][226]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2020.07.19-17.45.56:816][226]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2020.07.19-17.45.56:816][226]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2020.07.19-17.45.56:885][226]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.07.19-17.45.56:885][226]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.07.19-17.45.56:885][226]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.07.19-17.45.56:885][226]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.07.19-17.45.56:885][226]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.07.19-17.45.56:885][226]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.07.19-17.45.56:885][226]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.07.19-17.45.56:986][226]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.07.19-17.45.57:134][226]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.07.19-17.45.57:134][226]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.07.19-17.45.57:134][226]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.07.19-17.45.57:134][226]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.07.19-17.45.57:134][226]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.07.19-17.45.57:167][226]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.07.19-17.45.57:167][226]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.07.19-17.45.57:167][226]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.07.19-17.45.57:167][226]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.07.19-17.45.57:167][226]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.07.19-17.45.57:167][226]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.07.19-17.45.57:199][226]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.07.19-17.45.57:200][226]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.07.19-17.45.57:244][226]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.07.19-17.45.57:244][226]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.07.19-17.45.57:244][226]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.07.19-17.45.57:244][226]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.07.19-17.45.57:344][226]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.07.19-17.45.57:344][226]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.07.19-17.45.57:441][226]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.07.19-17.45.57:441][226]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.07.19-17.45.57:442][226]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.07.19-17.45.57:442][226]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.07.19-17.45.57:442][226]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.07.19-17.45.57:442][226]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.07.19-17.45.57:516][226]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.07.19-17.45.57:577][226]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.07.19-17.45.57:604][226]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.07.19-17.45.57:604][226]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.07.19-17.45.57:604][226]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.07.19-17.45.57:634][226]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.07.19-17.45.57:634][226]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.07.19-17.45.57:646][226]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.07.19-17.45.57:646][226]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.07.19-17.45.57:646][226]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.07.19-17.45.57:646][226]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.07.19-17.45.57:659][226]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.07.19-17.45.57:731][226]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.07.19-17.45.57:731][226]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.07.19-17.45.57:731][226]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.07.19-17.45.57:731][226]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.07.19-17.45.57:779][226]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.07.19-17.45.57:779][226]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.07.19-17.45.57:779][226]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.07.19-17.45.57:779][226]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.07.19-17.45.57:797][226]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.07.19-17.45.57:807][226]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.07.19-17.45.57:807][226]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.07.19-17.45.57:828][226]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.07.19-17.45.57:837][226]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.07.19-17.45.57:935][226]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.07.19-17.45.57:947][226]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.07.19-17.45.58:034][226]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.07.19-17.45.58:034][226]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.07.19-17.45.58:034][226]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.07.19-17.45.58:036][226]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.07.19-17.45.58:036][226]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.07.19-17.45.58:111][226]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.07.19-17.45.58:111][226]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.07.19-17.45.58:111][226]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.07.19-17.45.58:111][226]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.07.19-17.45.58:111][226]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.07.19-17.45.58:111][226]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.07.19-17.45.58:111][226]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.07.19-17.45.58:111][226]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.07.19-17.45.58:123][226]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.07.19-17.45.58:123][226]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.07.19-17.45.58:123][226]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.07.19-17.45.58:191][226]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.07.19-17.45.58:229][226]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.07.19-17.45.58:279][226]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.07.19-17.45.58:330][226]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.07.19-17.45.58:331][226]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.07.19-17.45.58:331][226]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.07.19-17.45.58:331][226]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.07.19-17.45.58:334][226]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.07.19-17.45.58:334][226]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.07.19-17.45.58:345][226]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.07.19-17.45.58:368][226]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.07.19-17.45.58:404][226]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.07.19-17.45.58:447][226]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.07.19-17.45.58:489][226]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.07.19-17.45.58:489][226]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.07.19-17.45.58:489][226]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.07.19-17.45.58:489][226]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.07.19-17.45.58:497][226]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.07.19-17.45.58:503][226]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.07.19-17.45.58:507][226]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.07.19-17.45.58:509][226]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.07.19-17.45.58:509][226]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.07.19-17.45.58:552][226]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.07.19-17.45.58:553][226]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.07.19-17.45.58:553][226]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.07.19-17.45.58:553][226]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.07.19-17.45.58:565][226]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.07.19-17.45.58:565][226]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.07.19-17.45.58:565][226]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.07.19-17.45.58:565][226]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.07.19-17.45.58:570][226]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.07.19-17.45.58:570][226]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.07.19-17.45.58:615][226]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.07.19-17.45.58:615][226]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.07.19-17.45.58:615][226]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.07.19-17.45.58:615][226]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.07.19-17.45.58:615][226]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.07.19-17.45.58:664][226]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.07.19-17.45.58:670][226]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.07.19-17.45.58:689][226]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.07.19-17.45.58:695][226]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.07.19-17.45.58:696][226]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.07.19-17.45.58:696][226]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.07.19-17.45.58:697][226]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.07.19-17.45.58:710][226]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.07.19-17.45.58:710][226]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.07.19-17.45.58:710][226]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.07.19-17.45.58:746][226]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.07.19-17.45.58:812][226]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.07.19-17.45.58:812][226]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.07.19-17.45.58:812][226]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.07.19-17.45.58:812][226]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.07.19-17.45.58:813][226]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.07.19-17.45.58:813][226]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.07.19-17.45.58:823][226]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.07.19-17.45.58:823][226]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.07.19-17.45.58:823][226]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.07.19-17.45.58:824][226]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.07.19-17.45.58:834][226]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.07.19-17.45.58:844][226]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.07.19-17.45.58:848][226]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.07.19-17.45.58:848][226]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.07.19-17.45.58:848][226]LogHMD: Freeing OpenVRDLLHandle.
+[2020.07.19-17.45.58:848][226]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.07.19-17.45.58:848][226]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.07.19-17.45.58:848][226]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.07.19-17.45.58:848][226]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.07.19-17.45.58:848][226]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.07.19-17.45.58:872][226]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.07.19-17.45.58:885][226]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.07.19-17.45.58:926][226]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.07.19-17.45.58:926][226]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.07.19-17.45.58:926][226]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA9F4FCC5-4FEC-AFBA-DA03-D6870F1226E3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=d30124fa4072969f13edc8bd3416ba78%7Ceba0c158ae58493f9cff91cdbf258934%7C64efdec2-77e3-48cf-9b76-d281a747b7b4&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.07.19-17.45.58:939][226]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.07.19-17.45.58:993][226]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.07.19-17.45.59:025][226]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.07.19-17.45.59:026][226]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.07.19-17.45.59:026][226]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.07.19-17.45.59:039][226]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.07.19-17.45.59:039][226]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.07.19-17.45.59:039][226]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.07.19-17.45.59:040][226]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.07.19-17.45.59:040][226]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.07.19-17.45.59:040][226]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.07.19-17.45.59:053][226]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.07.19-17.45.59:053][226]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.07.19-17.45.59:053][226]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.07.19-17.45.59:064][226]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.07.19-17.45.59:064][226]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.07.19-17.45.59:077][226]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.07.19-17.45.59:077][226]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.07.19-17.45.59:077][226]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.07.19-17.45.59:077][226]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.07.19-17.45.59:110][226]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.07.19-17.45.59:112][226]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.07.19-17.45.59:113][226]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.07.19-17.45.59:124][226]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.07.19-17.45.59:132][226]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.07.19-17.45.59:132][226]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.07.19-17.45.59:132][226]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.07.19-17.45.59:138][226]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.07.19-17.45.59:138][226]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.07.19-17.45.59:139][226]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.07.19-17.45.59:141][226]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.07.19-17.45.59:141][226]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.07.19-17.45.59:142][226]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.07.19-17.45.59:239][226]LogD3D11RHI: Shutdown
+[2020.07.19-17.45.59:239][226]LogD3D11RHI: CleanupD3DDevice
+[2020.07.19-17.45.59:368][226]LogExit: Exiting.
+[2020.07.19-17.45.59:452][226]Log file closed, 07/19/20 13:45:59

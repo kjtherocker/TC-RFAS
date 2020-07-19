@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TCRFAS.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9BEDA5CC-E733-4101-BC88-CC5A76AD953F}</UniqueIdentifier>
+      <UniqueIdentifier>{62F4B01D-5B8C-4850-B1A4-0C8C1ACBDDF0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TCRFAS.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{811C339A-A71D-4884-AA96-842304FE044E}</UniqueIdentifier>
+      <UniqueIdentifier>{4CB5266F-E3D0-4A4A-AE32-EF22C02C9A1A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TCRFAS">
-      <UniqueIdentifier>{1796769E-A137-44E9-BF49-94A44C690A86}</UniqueIdentifier>
+      <UniqueIdentifier>{858B86F7-EF0C-4377-BDDC-CF6476E1E56A}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TCRFAS\CameraManager.cpp">
+      <Filter>Source\TCRFAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCRFAS\CameraManager.h">
+      <Filter>Source\TCRFAS</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TCRFAS\Creature_Base.cpp">
       <Filter>Source\TCRFAS</Filter>
     </ClCompile>
