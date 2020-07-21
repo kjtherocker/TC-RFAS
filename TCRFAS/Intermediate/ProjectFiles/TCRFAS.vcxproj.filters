@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TCRFAS.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8B6D41AB-29C4-4196-B35F-A0C62007E45F}</UniqueIdentifier>
+      <UniqueIdentifier>{72C6A571-49E3-480D-AACF-8508F3497196}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TCRFAS.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2787D59D-7B70-4300-ACD1-411B2650FAA1}</UniqueIdentifier>
+      <UniqueIdentifier>{74CBD40D-53E4-486C-83EB-F02E26CB8196}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\TCRFAS">
-      <UniqueIdentifier>{C1C9574E-CDE9-4FBF-B1A0-0E431BABD86C}</UniqueIdentifier>
+      <UniqueIdentifier>{EA581325-CC06-4FE9-8150-36D57BCBA3E7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TCRFAS\CameraManager.cpp">
       <Filter>Source\TCRFAS</Filter>
@@ -36,6 +39,12 @@
       <Filter>Source\TCRFAS</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TCRFAS\CombatManager.h">
+      <Filter>Source\TCRFAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCRFAS\Commandboard.cpp">
+      <Filter>Source\TCRFAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCRFAS\Commandboard.h">
       <Filter>Source\TCRFAS</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TCRFAS\Creature_Base.cpp">
@@ -81,6 +90,12 @@
       <Filter>Source\TCRFAS</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TCRFAS\UIManager.h">
+      <Filter>Source\TCRFAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCRFAS\UiScreen_Base.cpp">
+      <Filter>Source\TCRFAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCRFAS\UiScreen_Base.h">
       <Filter>Source\TCRFAS</Filter>
     </ClInclude>
   </ItemGroup>
