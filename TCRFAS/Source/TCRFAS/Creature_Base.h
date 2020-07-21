@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Skills_Base.h"
 #include "GameFramework/Pawn.h"
 #include "Creature_Base.generated.h"
 
@@ -19,7 +20,7 @@ enum ElementalTypes
 };
 
 UENUM()
-enum CreaturesAilment
+enum Ailment
 {
 	None,
     Poison,
@@ -44,6 +45,8 @@ enum Charactertype
     Ally,
     Enemy
 };
+
+class USkills_Base;
 
 
 UCLASS()
@@ -75,12 +78,16 @@ public:
 
 	virtual void IncrementHealth(int Increment);
 
+	virtual void InitializeAllSkills();
+	
 	virtual void Death();
 
 
-			
-	UPROPERTY(VisibleAnywhere)
-     UStaticMeshComponent* BaseMesh;
+	UPROPERTY(EditAnywhere)
+	 TArray<USkills_Base*> Skills;
+	
+	UPROPERTY(EditAnywhere)
+     USkeletalMesh* BaseMesh;
 	
 	ElementalTypes ElementalTypeStrength;
 	ElementalTypes ElementalTypeWeakness;

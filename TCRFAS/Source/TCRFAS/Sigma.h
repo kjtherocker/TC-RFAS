@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Creature_Base.h"
+#include "FireBall.h"
 #include "Sigma.generated.h"
 
 UCLASS()

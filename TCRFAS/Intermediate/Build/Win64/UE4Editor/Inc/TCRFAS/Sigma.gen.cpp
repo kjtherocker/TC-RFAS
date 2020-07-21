@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeSigma() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASigma, 2262067592);
+	IMPLEMENT_CLASS(ASigma, 3631724812);
 	template<> TCRFAS_API UClass* StaticClass<ASigma>()
 	{
 		return ASigma::StaticClass();

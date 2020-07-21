@@ -16,12 +16,13 @@ void EmptyLinkFunctionForGeneratedCodeCreature_Base() {}
 	TCRFAS_API UEnum* Z_Construct_UEnum_TCRFAS_Charactertype();
 	UPackage* Z_Construct_UPackage__Script_TCRFAS();
 	TCRFAS_API UEnum* Z_Construct_UEnum_TCRFAS_DomainStages();
-	TCRFAS_API UEnum* Z_Construct_UEnum_TCRFAS_CreaturesAilment();
+	TCRFAS_API UEnum* Z_Construct_UEnum_TCRFAS_Ailment();
 	TCRFAS_API UEnum* Z_Construct_UEnum_TCRFAS_ElementalTypes();
 	TCRFAS_API UClass* Z_Construct_UClass_ACreature_Base_NoRegister();
 	TCRFAS_API UClass* Z_Construct_UClass_ACreature_Base();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMesh_NoRegister();
+	TCRFAS_API UClass* Z_Construct_UClass_USkills_Base_NoRegister();
 // End Cross Module References
 	static UEnum* Charactertype_StaticEnum()
 	{
@@ -133,26 +134,26 @@ void EmptyLinkFunctionForGeneratedCodeCreature_Base() {}
 		}
 		return ReturnEnum;
 	}
-	static UEnum* CreaturesAilment_StaticEnum()
+	static UEnum* Ailment_StaticEnum()
 	{
 		static UEnum* Singleton = nullptr;
 		if (!Singleton)
 		{
-			Singleton = GetStaticEnum(Z_Construct_UEnum_TCRFAS_CreaturesAilment, Z_Construct_UPackage__Script_TCRFAS(), TEXT("CreaturesAilment"));
+			Singleton = GetStaticEnum(Z_Construct_UEnum_TCRFAS_Ailment, Z_Construct_UPackage__Script_TCRFAS(), TEXT("Ailment"));
 		}
 		return Singleton;
 	}
-	template<> TCRFAS_API UEnum* StaticEnum<CreaturesAilment>()
+	template<> TCRFAS_API UEnum* StaticEnum<Ailment>()
 	{
-		return CreaturesAilment_StaticEnum();
+		return Ailment_StaticEnum();
 	}
-	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_CreaturesAilment(CreaturesAilment_StaticEnum, TEXT("/Script/TCRFAS"), TEXT("CreaturesAilment"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_TCRFAS_CreaturesAilment_Hash() { return 3426694745U; }
-	UEnum* Z_Construct_UEnum_TCRFAS_CreaturesAilment()
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_Ailment(Ailment_StaticEnum, TEXT("/Script/TCRFAS"), TEXT("Ailment"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_TCRFAS_Ailment_Hash() { return 1174411299U; }
+	UEnum* Z_Construct_UEnum_TCRFAS_Ailment()
 	{
 #if WITH_HOT_RELOAD
 		UPackage* Outer = Z_Construct_UPackage__Script_TCRFAS();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("CreaturesAilment"), 0, Get_Z_Construct_UEnum_TCRFAS_CreaturesAilment_Hash(), false);
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("Ailment"), 0, Get_Z_Construct_UEnum_TCRFAS_Ailment_Hash(), false);
 #else
 		static UEnum* ReturnEnum = nullptr;
 #endif // WITH_HOT_RELOAD
@@ -178,8 +179,8 @@ void EmptyLinkFunctionForGeneratedCodeCreature_Base() {}
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
 				(UObject*(*)())Z_Construct_UPackage__Script_TCRFAS,
 				nullptr,
-				"CreaturesAilment",
-				"CreaturesAilment",
+				"Ailment",
+				"Ailment",
 				Enumerators,
 				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
@@ -282,6 +283,11 @@ void EmptyLinkFunctionForGeneratedCodeCreature_Base() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseMesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BaseMesh;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Skills_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Skills;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Skills_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -318,16 +324,25 @@ void EmptyLinkFunctionForGeneratedCodeCreature_Base() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACreature_Base_Statics::NewProp_BaseMesh_MetaData[] = {
 		{ "Category", "Creature_Base" },
-		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Creature_Base.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACreature_Base_Statics::NewProp_BaseMesh = { "BaseMesh", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACreature_Base, BaseMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACreature_Base_Statics::NewProp_BaseMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACreature_Base_Statics::NewProp_BaseMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACreature_Base_Statics::NewProp_BaseMesh = { "BaseMesh", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACreature_Base, BaseMesh), Z_Construct_UClass_USkeletalMesh_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACreature_Base_Statics::NewProp_BaseMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACreature_Base_Statics::NewProp_BaseMesh_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACreature_Base_Statics::NewProp_Skills_MetaData[] = {
+		{ "Category", "Creature_Base" },
+		{ "ModuleRelativePath", "Creature_Base.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ACreature_Base_Statics::NewProp_Skills = { "Skills", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACreature_Base, Skills), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ACreature_Base_Statics::NewProp_Skills_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACreature_Base_Statics::NewProp_Skills_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACreature_Base_Statics::NewProp_Skills_Inner = { "Skills", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_USkills_Base_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACreature_Base_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACreature_Base_Statics::NewProp_Name,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACreature_Base_Statics::NewProp_CurrentMana,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACreature_Base_Statics::NewProp_CurrentHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACreature_Base_Statics::NewProp_BaseMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACreature_Base_Statics::NewProp_Skills,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACreature_Base_Statics::NewProp_Skills_Inner,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACreature_Base_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACreature_Base>::IsAbstract,
@@ -356,7 +371,7 @@ void EmptyLinkFunctionForGeneratedCodeCreature_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACreature_Base, 2929715843);
+	IMPLEMENT_CLASS(ACreature_Base, 3429038963);
 	template<> TCRFAS_API UClass* StaticClass<ACreature_Base>()
 	{
 		return ACreature_Base::StaticClass();

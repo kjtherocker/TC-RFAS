@@ -3,6 +3,7 @@
 
 #include "Sigma.h"
 
+
 // Sets default values
 ASigma::ASigma()
 {
@@ -26,6 +27,12 @@ void ASigma::SetCreature()
 	Resistance= 30;
 
 	Name = "Sigma";
+
+    Skills.Add(NewObject<USkills_Base>());
+	Skills.Add(NewObject<UFireBall>());
+	
+	InitializeAllSkills();
+
 }
 
 // Called when the game starts or when spawned

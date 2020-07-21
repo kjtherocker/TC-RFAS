@@ -8,7 +8,7 @@ ACreature_Base::ACreature_Base()
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	BaseMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("EnemyStaticMesh"));
+	BaseMesh = CreateDefaultSubobject<USkeletalMesh>(TEXT("EnemyStaticMesh"));
 }
 
 // Called when the game starts or when spawned
@@ -64,6 +64,15 @@ void ACreature_Base::DecrementHealth(int Decremenby)
 void ACreature_Base::IncrementHealth(int Increment)
 {
 	CurrentHealth += Increment;
+}
+
+void ACreature_Base::InitializeAllSkills()
+{
+
+	for(int i = 0; i < Skills.Num();i++)
+	{
+		Skills[i]->Initialize();
+	}
 }
 
 void ACreature_Base::Death()

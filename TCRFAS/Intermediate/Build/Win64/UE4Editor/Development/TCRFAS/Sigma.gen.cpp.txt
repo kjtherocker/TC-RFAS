@@ -3,5 +3,14 @@ F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes
 F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 F:\TC-RFAS\TCRFAS\Source\TCRFAS/Sigma.h
 F:\TC-RFAS\TCRFAS\Source\TCRFAS\Creature_Base.h
+F:\TC-RFAS\TCRFAS\Source\TCRFAS\Skills_Base.h
+F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+F:\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+F:\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+F:\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\Skills_Base.generated.h
 F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\Creature_Base.generated.h
+F:\TC-RFAS\TCRFAS\Source\TCRFAS\FireBall.h
+F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\FireBall.generated.h
 F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\Sigma.generated.h
