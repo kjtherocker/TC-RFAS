@@ -3,6 +3,10 @@ F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes
 F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 F:\TC-RFAS\TCRFAS\Source\TCRFAS/Commandboard.h
 F:\TC-RFAS\TCRFAS\Source\TCRFAS\UiScreen_Base.h
+F:\TC-RFAS\TCRFAS\Source\TCRFAS\CombatManager.h
+F:\TC-RFAS\TCRFAS\Source\TCRFAS\Creature_Base.h
+F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\Creature_Base.generated.h
+F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\CombatManager.generated.h
 F:\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 F:\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 F:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h

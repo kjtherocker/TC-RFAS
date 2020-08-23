@@ -2,6 +2,7 @@
 
 
 #include "Creature_Base.h"
+#include "Skills_Base.h"
 
 // Sets default values
 ACreature_Base::ACreature_Base()

@@ -18,6 +18,12 @@ void AUiScreen_Base::BeginPlay()
 	
 }
 
+void AUiScreen_Base::Initialize()
+{
+}
+
+
+
 // Called every frame
 void AUiScreen_Base::Tick(float DeltaTime)
 {
@@ -29,111 +35,118 @@ void AUiScreen_Base::Tick(float DeltaTime)
 void AUiScreen_Base::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-	//InputComponent->BindAxis("Keyboard_Up", this, &AUiScreen_Base::MoveMenuCursorPosition );
+
+	DefaultInputBindings(this);
 }
 
-void AUiScreen_Base::Initialize()
-{
-}
+
 
 void AUiScreen_Base::OnPush()
 {
-	
+	InputComponent->Activate();
 }
 
 void AUiScreen_Base::OnPop()
 {
+	InputComponent->Deactivate();
 }
 
 void AUiScreen_Base::ReturnToLastScreen()
 {
 }
 
-void AUiScreen_Base::MoveMenuCursorPosition(float aMovement)
+void AUiScreen_Base::SetMenuConstraints()
+{
+}
+
+void AUiScreen_Base::MoveMenuCursorPositionY(float aMovement)
+{
+	m_CursorYPrevious = m_CursorYCurrent;    
+
+	m_CursorYCurrent = MenuDirectionCalculation(aMovement, m_CursorYCurrent, m_CursorYMax, m_CursorYMin,StopAtStartAndEnd);
+	
+	MenuSelection();
+}
+
+void AUiScreen_Base::MoveMenuCursorPositionX(float aMovement)
 {
 
 	m_CursorXPrevious = m_CursorXCurrent;
-	m_CursorYPrevious = m_CursorYCurrent;
         
-	m_CursorXCurrent = MenuDirectionCalculationLooping(aMovement, m_CursorXCurrent, m_CursorXMax, m_CursorXMin);
-	m_CursorYCurrent = MenuDirectionCalculationLooping(aMovement, m_CursorYCurrent, m_CursorYMax, m_CursorYMin);
+	m_CursorXCurrent = MenuDirectionCalculation(aMovement, m_CursorXCurrent, m_CursorXMax, m_CursorXMin,StopAtStartAndEnd);
 	
-	MenuSelection(m_CursorXCurrent, m_CursorYCurrent);
+	MenuSelection();
 }
 
-void AUiScreen_Base::MenuSelection(int aCursorX, int aCursorY)
+void AUiScreen_Base::MenuSelection()
 {
 }
 
-int AUiScreen_Base::MenuDirectionCalculationLooping(float Axis, int aCurrent, int aMax, int aMin)
+void AUiScreen_Base::ActivateCurrentObjectCursorIsOn()
 {
-	if (Axis < 0)
+}
+
+void AUiScreen_Base::DefaultInputBindings(AUiScreen_Base* aBindedClass)
+{
+	InputComponent->BindAxis("Keyboard_Up", aBindedClass,  &AUiScreen_Base::MoveMenuCursorPositionX);
+	InputComponent->BindAxis("Keyboard_Down", aBindedClass,  &AUiScreen_Base::MoveMenuCursorPositionX);
+	InputComponent->BindAxis("Keyboard_Left", aBindedClass,  &AUiScreen_Base::MoveMenuCursorPositionY);
+	InputComponent->BindAxis("Keyboard_Right", aBindedClass,  &AUiScreen_Base::MoveMenuCursorPositionY);
+	
+}
+
+int AUiScreen_Base::MenuDirectionCalculation(float Axis, int aCurrent, int aMax, int aMin, MenuDirection aMenuDirection)
+{
+
+	if(aMenuDirection == Looping)
 	{
-		aCurrent--;
-	}
+		if (Axis < 0)
+		{
+			aCurrent--;
+		}
         
-	if (Axis > 0)
-	{
-		aCurrent++;
+		if (Axis > 0)
+		{
+			aCurrent++;
+		}
+ 
+		if (aCurrent < aMin)
+		{
+			aCurrent = aMax;
+		}
+		else if (aCurrent > aMax)
+		{
+			aCurrent = aMin;
+		}
+
+		return aCurrent;
 	}
 
-	if (aCurrent < aMin)
+	if(aMenuDirection == StopAtStartAndEnd)
 	{
-		aCurrent = aMax;
-	}
-	else if (aCurrent > aMax)
-	{
-		aCurrent = aMin;
-	}
-
-	return aCurrent;
-}
-
-int AUiScreen_Base::MenuDirectionCalculationEnd(float Axis, int aCurrent, int aMax, int aMin)
-{
-	if (Axis < 0)
-	{
-		aCurrent++;
-	}
+		if (Axis > 0)
+		{
+			aCurrent++;
+		}
         
-	if (Axis > 0)
-	{
-		aCurrent--;
+		if (Axis < 0)
+		{
+			aCurrent--;
+		}
+
+		if (aCurrent < aMin)
+		{
+			aCurrent = aMin;
+		}
+		else if (aCurrent > aMax)
+		{
+			aCurrent = aMax;
+		}
+
+		return aCurrent;
+		
 	}
 
-	if (aCurrent < aMin)
-	{
-		aCurrent = aMin;
-	}
-	else if (aCurrent > aMax)
-	{
-		aCurrent = aMax;
-	}
-
-	return aCurrent;
-}
-
-int AUiScreen_Base::MenuDirectionCalculationEndInvertAxis(float Axis, int aCurrent, int aMax, int aMin)
-{
-	if (Axis > 0)
-	{
-		aCurrent++;
-	}
-        
-	if (Axis < 0)
-	{
-		aCurrent--;
-	}
-
-	if (aCurrent < aMin)
-	{
-		aCurrent = aMin;
-	}
-	else if (aCurrent > aMax)
-	{
-		aCurrent = aMax;
-	}
-
-	return aCurrent;
+	return 0;
 }
 

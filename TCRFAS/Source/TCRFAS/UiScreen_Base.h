@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "CombatManager.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "Blueprint/UserWidget.h"
@@ -9,6 +10,15 @@
 
 
 class UUserWidget;
+
+
+enum MenuDirection
+{
+	Looping,
+	StopAtStartAndEnd
+};
+
+
 UCLASS()
 class TCRFAS_API AUiScreen_Base : public APawn
 {
@@ -36,15 +46,22 @@ public:
 	virtual void OnPop();
 	virtual void ReturnToLastScreen();
 
-
-	virtual void MoveMenuCursorPosition(float aMovement);
-	virtual void MenuSelection(int aCursorX, int aCursorY);
+	virtual void SetMenuConstraints();
 	
-	virtual int MenuDirectionCalculationLooping(float Axis, int aCurrent,int aMax, int aMin);
-	virtual int MenuDirectionCalculationEnd(float Axis, int aCurrent,int aMax, int aMin);
-	virtual int MenuDirectionCalculationEndInvertAxis(float Axis, int aCurrent,int aMax, int aMin);
-	
+	virtual void MoveMenuCursorPositionX(float aMovement);
+	virtual void MoveMenuCursorPositionY(float aMovement);
+	virtual void MenuSelection();
 
+	virtual void ActivateCurrentObjectCursorIsOn();
+	
+	virtual void DefaultInputBindings(AUiScreen_Base* aBindedClass);
+	
+	virtual int MenuDirectionCalculation(float Axis, int aCurrent,int aMax, int aMin,MenuDirection aMenuDirection);
+
+	ACombatManager* CombatManager;
+
+	
+	int cputest;
 	
 	int m_CursorYMax;
 	int m_CursorYCurrent;

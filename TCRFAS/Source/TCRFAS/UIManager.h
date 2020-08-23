@@ -2,9 +2,34 @@
 
 #pragma once
 
+
+
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "UiScreen_Base.h"
+#include "UiScreen_Commandboard.h"
+
 #include "UIManager.generated.h"
+
+UENUM()
+enum Screen
+{
+	CommandBoard = 0,
+    SkillBoard,
+    ArenaMenu,
+    DomainBoard,
+    DomainClash,
+    Memoria,
+    PartyMenu,
+    TurnIndicator,
+    EndCombatMenu,
+    Notifcation,
+    PartyStats,
+    Dialogue,
+
+
+    _NumberOfScreens
+};
 
 UCLASS()
 class TCRFAS_API AUIManager : public APawn
@@ -23,8 +48,17 @@ public:
 	// Called every fra
 	virtual void Tick(float DeltaTime) override;
 
-	
-
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	virtual void Initialize();
+
+	UPROPERTY()
+	UStaticMesh* EmptyMesh;
+	
+	AUiScreen_Commandboard* CommandboardRef;
+
+	TMap<Screen, AUiScreen_Base*> DynamicScreens;
+	Screen Testo;
+	
+	
 };

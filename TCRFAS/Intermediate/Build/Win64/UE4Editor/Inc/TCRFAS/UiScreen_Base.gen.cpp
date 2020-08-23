@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeUiScreen_Base() {}
 	TCRFAS_API UClass* Z_Construct_UClass_AUiScreen_Base();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_TCRFAS();
-	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 // End Cross Module References
 	void AUiScreen_Base::StaticRegisterNativesAUiScreen_Base()
 	{
@@ -32,11 +31,6 @@ void EmptyLinkFunctionForGeneratedCodeUiScreen_Base() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_UserWidget_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_UserWidget;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -51,19 +45,6 @@ void EmptyLinkFunctionForGeneratedCodeUiScreen_Base() {}
 		{ "ModuleRelativePath", "UiScreen_Base.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUiScreen_Base_Statics::NewProp_m_UserWidget_MetaData[] = {
-		{ "Category", "UiScreen_Base" },
-		{ "Comment", "/**\n\x09 * \\brief This is the main Widget the screen uses\n\x09 */" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "UiScreen_Base.h" },
-		{ "ToolTip", "\\brief This is the main Widget the screen uses" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AUiScreen_Base_Statics::NewProp_m_UserWidget = { "m_UserWidget", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUiScreen_Base, m_UserWidget), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AUiScreen_Base_Statics::NewProp_m_UserWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUiScreen_Base_Statics::NewProp_m_UserWidget_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AUiScreen_Base_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUiScreen_Base_Statics::NewProp_m_UserWidget,
-	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AUiScreen_Base_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AUiScreen_Base>::IsAbstract,
 	};
@@ -73,11 +54,11 @@ void EmptyLinkFunctionForGeneratedCodeUiScreen_Base() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		Z_Construct_UClass_AUiScreen_Base_Statics::PropPointers,
+		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		UE_ARRAY_COUNT(Z_Construct_UClass_AUiScreen_Base_Statics::PropPointers),
+		0,
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AUiScreen_Base_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AUiScreen_Base_Statics::Class_MetaDataParams))
@@ -91,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeUiScreen_Base() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUiScreen_Base, 3404717214);
+	IMPLEMENT_CLASS(AUiScreen_Base, 935194720);
 	template<> TCRFAS_API UClass* StaticClass<AUiScreen_Base>()
 	{
 		return AUiScreen_Base::StaticClass();

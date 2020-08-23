@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TCRFAS.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{72C6A571-49E3-480D-AACF-8508F3497196}</UniqueIdentifier>
+      <UniqueIdentifier>{09D1ACA3-AF4A-46A5-9A1D-21FDE29B8BA2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TCRFAS.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{74CBD40D-53E4-486C-83EB-F02E26CB8196}</UniqueIdentifier>
+      <UniqueIdentifier>{319A27C3-CD34-4AAB-910F-B34E7808D49B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TCRFAS">
-      <UniqueIdentifier>{EA581325-CC06-4FE9-8150-36D57BCBA3E7}</UniqueIdentifier>
+      <UniqueIdentifier>{9867D06F-8434-4F40-9EFE-7BE18CD75C82}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TCRFAS\CameraManager.cpp">
       <Filter>Source\TCRFAS</Filter>
@@ -59,6 +59,18 @@
     <ClInclude Include="..\..\Source\TCRFAS\FireBall.h">
       <Filter>Source\TCRFAS</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\TCRFAS\MenuHUD.cpp">
+      <Filter>Source\TCRFAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCRFAS\MenuHUD.h">
+      <Filter>Source\TCRFAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCRFAS\PlayerControllerPawn.cpp">
+      <Filter>Source\TCRFAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCRFAS\PlayerControllerPawn.h">
+      <Filter>Source\TCRFAS</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TCRFAS\Sigma.cpp">
       <Filter>Source\TCRFAS</Filter>
     </ClCompile>
@@ -69,6 +81,12 @@
       <Filter>Source\TCRFAS</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TCRFAS\Skills_Base.h">
+      <Filter>Source\TCRFAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCRFAS\SMainMenuWidget.cpp">
+      <Filter>Source\TCRFAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCRFAS\SMainMenuWidget.h">
       <Filter>Source\TCRFAS</Filter>
     </ClInclude>
     <None Include="..\..\Source\TCRFAS\TCRFAS.Build.cs">
@@ -86,6 +104,12 @@
     <ClInclude Include="..\..\Source\TCRFAS\TCRFASGameModeBase.h">
       <Filter>Source\TCRFAS</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\TCRFAS\UiCommandBoard.cpp">
+      <Filter>Source\TCRFAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCRFAS\UiCommandBoard.h">
+      <Filter>Source\TCRFAS</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TCRFAS\UIManager.cpp">
       <Filter>Source\TCRFAS</Filter>
     </ClCompile>
@@ -96,6 +120,12 @@
       <Filter>Source\TCRFAS</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TCRFAS\UiScreen_Base.h">
+      <Filter>Source\TCRFAS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TCRFAS\UiScreen_Commandboard.cpp">
+      <Filter>Source\TCRFAS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TCRFAS\UiScreen_Commandboard.h">
       <Filter>Source\TCRFAS</Filter>
     </ClInclude>
   </ItemGroup>

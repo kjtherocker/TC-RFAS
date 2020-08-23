@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeCommandboard() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACommandboard, 1218152147);
+	IMPLEMENT_CLASS(ACommandboard, 3738594909);
 	template<> TCRFAS_API UClass* StaticClass<ACommandboard>()
 	{
 		return ACommandboard::StaticClass();
