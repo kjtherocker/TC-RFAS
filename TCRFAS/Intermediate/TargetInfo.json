@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "TCRFAS",
-			"Path": "F:\\TC-RFAS\\TCRFAS\\Source\\TCRFAS.Target.cs",
+			"Path": "F:\\PersonalProjects\\TC-RFAS\\TCRFAS\\Source\\TCRFAS.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TCRFASEditor",
-			"Path": "F:\\TC-RFAS\\TCRFAS\\Source\\TCRFASEditor.Target.cs",
+			"Path": "F:\\PersonalProjects\\TC-RFAS\\TCRFAS\\Source\\TCRFASEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

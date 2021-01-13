@@ -7,6 +7,10 @@
 #include "Engine/Engine.h"
 #include "GameFramework/PlayerController.h"
 
+
+
+#define LOCTEXT_NAMESPACE "MenuHud"
+
 void AMenuHUD::BeginPlay()
 {
     Super::BeginPlay();
@@ -18,7 +22,11 @@ void AMenuHUD::ShowMenu()
 {
     if(GEngine && GEngine->GameViewport)
     {
-        MenuWidget = SNew(SMainMenuWidget).OwningHUD(this);
+        MenuWidget =  SNew(SMainMenuWidget);
+        MenuWidget->SetOwningHUD(this);
+
+        FText testo = LOCTEXT("TitleText", "Eatttt Asss");
+        MenuWidget->SetTitleText(testo);
         GEngine->GameViewport->AddViewportWidgetContent(SAssignNew(MenuWidgetContainer, SWeakWidget).PossiblyNullContent(MenuWidget.ToSharedRef()));
 
         if(PlayerOwner)
@@ -53,3 +61,4 @@ void AMenuHUD::RemoveMenu()
 //{
 //    MenuHUD->ShowMenu();
 //}
+#undef LOCTEXT_NAMESPACE

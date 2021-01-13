@@ -20,5 +20,8 @@ ATCRFASGameModeBase::ATCRFASGameModeBase()
 
     UiManager = AUIManager::StaticClass();
     HUDClass = AMenuHUD::StaticClass();
-    
+
+
+
+    float test = 0;
 }

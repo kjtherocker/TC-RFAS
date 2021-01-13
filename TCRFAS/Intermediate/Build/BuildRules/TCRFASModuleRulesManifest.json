@@ -1,8 +1,10 @@
 {
 	"SourceFiles": [
-		"F:\\TC-RFAS\\TCRFAS\\Source\\TCRFAS\\TCRFAS.Build.cs",
-		"F:\\TC-RFAS\\TCRFAS\\Source\\TCRFAS.Target.cs",
-		"F:\\TC-RFAS\\TCRFAS\\Source\\TCRFASEditor.Target.cs"
+		"F:\\PersonalProjects\\TC-RFAS\\TCRFAS\\Source\\TCRFAS\\TCRFAS.Build.cs",
+		"F:\\PersonalProjects\\TC-RFAS\\TCRFAS\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"F:\\PersonalProjects\\TC-RFAS\\TCRFAS\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"F:\\PersonalProjects\\TC-RFAS\\TCRFAS\\Source\\TCRFAS.Target.cs",
+		"F:\\PersonalProjects\\TC-RFAS\\TCRFAS\\Source\\TCRFASEditor.Target.cs"
 	],
-	"EngineVersion": "4.25.1"
+	"EngineVersion": "4.25.4"
 }

@@ -1,233 +1,233 @@
-F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Development\TCRFAS\Definitions.TCRFAS.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-F:\TC-RFAS\TCRFAS\Source\TCRFAS/MenuHUD.h
-F:\TC-RFAS\TCRFAS\Source\TCRFAS\SMainMenuWidget.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\SlateBasics.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Core.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformNamedPipe.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/PlatformNamedPipe.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformNamedPipe.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCriticalSection.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/PlatformFile.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformFile.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/PlatformIncludes.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MessageDialog.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ScopedDebugInfo.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ExternalProfiler.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/StringUtility.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/NameAsStringProxyArchive.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/MRUArray.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/TransArray.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/ArrayBuilder.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/SingleThreadEvent.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/ThreadManager.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/StaticBitArray.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/MapBuilder.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/ThreadingBase.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/TextLocalizationManagerGlobals.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/Culture.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Logging/LogSuppressionInterface.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/OutputDevices.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Logging/LogScopedVerbosityOverride.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceNull.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceMemory.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceFile.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceDebug.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceArchiveWrapper.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceAnsiError.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/TimeGuard.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/LargeMemoryWriter.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/LargeMemoryData.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/LargeMemoryReader.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/BufferArchive.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/ArrayReader.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/ArrayWriter.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/BufferWriter.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/WildcardString.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/CircularQueue.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceHelper.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/ScopedSlowTask.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/CallbackDevice.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/LocalTimestampDirectoryVisitor.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/BlueprintsObjectVersion.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/BuildObjectVersion.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/CoreObjectVersion.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/EditorObjectVersion.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/FrameworkObjectVersion.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/MobileObjectVersion.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/NetworkingObjectVersion.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/OnlineObjectVersion.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/PlatformObjectVersion.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/SequencerObjectVersion.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/VRObjectVersion.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceConsole.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonitoredProcess.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/ErrorException.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectAllocator.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Misc/TextBuffer.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/PropertyLocalizationDataGathering.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/LevelGuids.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/ObjectMemoryAnalyzer.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/ReferenceChainSearch.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/ThreadHeartBeat.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Internationalization/TextPackageNamespaceUtil.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/TextNamespaceUtil.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveCountMem.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ObjectAndNameAsStringProxyArchive.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ObjectWriter.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ObjectReader.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveShowReferences.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/FindReferencersArchive.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/FindObjectReferencers.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveFindCulprit.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/DuplicatedObject.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/DuplicatedDataReader.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/DuplicatedDataWriter.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveReplaceObjectRef.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveReplaceOrClearExternalReferences.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveObjectPropertyMapper.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveReferenceMarker.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveObjectCrc32.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/LinkerSave.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Misc/NotifyHook.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Misc/RedirectCollector.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptStackTracker.h
-F:\UE_4.25\Engine\Source\Runtime\Json\Public\Json.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\SlateCore.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
-F:\UE_4.25\Engine\Source\Runtime\InputCore\Public\InputCore.h
-F:\UE_4.25\Engine\Source\Runtime\InputCore\Public\InputCoreModule.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Layout/LayoutUtils.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Animation/SlateSprings.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Sound/ISlateSoundDevice.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Sound/NullSlateSoundDevice.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Textures/SlateUpdatableTexture.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Fonts/FontBulkData.h
-F:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontBulkData.generated.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Fonts/FontMeasure.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBorderBrush.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBoxBrush.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateColorBrush.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateImageBrush.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyleRegistry.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyle.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Types/NavigationMetaData.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Rendering/RenderingPolicy.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Rendering/SlateDrawBuffer.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Widgets/SUserWidget.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\SlateOptMacros.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/PlatformTextField.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/Windows/WindowsPlatformTextField.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/GenericPlatformTextField.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Application/IPlatformTextField.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Application/NavigationConfig.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/SWeakWidget.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/TextHitPoint.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/IRunRenderer.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ILineHighlighter.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ILayoutBlock.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/DefaultLayoutBlock.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/WidgetLayoutBlock.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ISlateRun.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ISlateRunRenderer.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ISlateLineHighlighter.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateTextLayout.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateTextRun.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateHyperlinkRun.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateImageRun.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateWidgetRun.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/TextLayoutEngine.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SFxWidget.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SSeparator.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SSpacer.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SWrapBox.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Widgets/Images/SImage.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Images/SSpinningImage.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SProgressBar.h
-F:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\SProgressBar.generated.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/SCanvas.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ITextDecorator.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/TextDecorators.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateTextLayoutFactory.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Text/SRichTextBlock.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SHeader.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SGridPanel.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SUniformGridPanel.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Text/ISlateEditableTextWidget.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Text/SMultiLineEditableText.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SMultiLineEditableTextBox.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SEditableText.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SEditableTextBox.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/SToolTip.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScrollBarTrack.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScrollBorder.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SErrorText.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SErrorHint.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SPopUpErrorText.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Views/STileView.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Views/STreeView.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScrollBox.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/SViewport.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Input/HittestGrid.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Colors/SColorBlock.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/NumericTypeInterface.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Math/BasicMathExpressionEvaluator.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/FastDecimalFormat.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSpinBox.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSlider.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Docking/LayoutService.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\SlateExtras.h
-F:\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SMissingWidget.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Layout/SlateScrollHelper.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Commands/UICommandDragDropOp.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Commands/GenericCommands.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSearchBox.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SVolumeControl.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Colors/SColorSpectrum.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Colors/SColorWheel.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/MultiBox/SToolBarButtonBlock.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/MultiBox/SToolBarComboButtonBlock.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SHyperlink.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Accessibility/SlateAccessibleWidgets.h
-F:\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Widgets/Accessibility/SlateCoreAccessibleWidgets.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SRichTextHyperlink.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Images/SThrobber.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/STextEntryPopup.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/STextComboPopup.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SExpandableButton.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SExpandableArea.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SNotificationList.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SWidgetSwitcher.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSuggestionTextBox.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Navigation/SBreadcrumbTrail.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/STextComboBox.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SNumericEntryBox.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SEditableComboBox.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Notifications/NotificationManager.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SDPIScaler.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Text/SInlineEditableTextBlock.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SVirtualKeyboardEntry.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Layout/ScrollyZoomy.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SSafeZone.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/MarqueeRect.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SRotatorInputBox.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SVectorInputBox.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SVirtualJoystick.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Docking/SDockTab.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Docking/SDockableTab.h
-F:\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Docking/SDockTabStack.h
-F:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
-F:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
-F:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
-F:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
-F:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
-F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\MenuHUD.generated.h
+F:\PersonalProjects\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Development\TCRFAS\Definitions.TCRFAS.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+F:\PersonalProjects\TC-RFAS\TCRFAS\Source\TCRFAS/MenuHUD.h
+F:\PersonalProjects\TC-RFAS\TCRFAS\Source\TCRFAS\SMainMenuWidget.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\SlateBasics.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Core.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformNamedPipe.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/PlatformNamedPipe.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformNamedPipe.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCriticalSection.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/PlatformFile.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformFile.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/PlatformIncludes.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MessageDialog.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ScopedDebugInfo.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ExternalProfiler.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/StringUtility.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/NameAsStringProxyArchive.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/MRUArray.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/TransArray.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/ArrayBuilder.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/SingleThreadEvent.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/ThreadManager.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/StaticBitArray.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/MapBuilder.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/ThreadingBase.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/TextLocalizationManagerGlobals.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/Culture.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Logging/LogSuppressionInterface.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/OutputDevices.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Logging/LogScopedVerbosityOverride.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceNull.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceMemory.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceFile.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceDebug.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceArchiveWrapper.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceAnsiError.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/TimeGuard.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/LargeMemoryWriter.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/LargeMemoryData.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/LargeMemoryReader.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/BufferArchive.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/ArrayReader.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/ArrayWriter.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/BufferWriter.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/WildcardString.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Containers/CircularQueue.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceHelper.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/ScopedSlowTask.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/CallbackDevice.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/LocalTimestampDirectoryVisitor.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/BlueprintsObjectVersion.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/BuildObjectVersion.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/CoreObjectVersion.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/EditorObjectVersion.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/FrameworkObjectVersion.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/MobileObjectVersion.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/NetworkingObjectVersion.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/OnlineObjectVersion.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/PlatformObjectVersion.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/SequencerObjectVersion.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\UObject/VRObjectVersion.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceConsole.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonitoredProcess.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/ErrorException.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectAllocator.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Misc/TextBuffer.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/PropertyLocalizationDataGathering.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/LevelGuids.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/ObjectMemoryAnalyzer.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/ReferenceChainSearch.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\HAL/ThreadHeartBeat.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Internationalization/TextPackageNamespaceUtil.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/TextNamespaceUtil.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveCountMem.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ObjectAndNameAsStringProxyArchive.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ObjectWriter.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ObjectReader.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveShowReferences.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/FindReferencersArchive.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/FindObjectReferencers.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveFindCulprit.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/DuplicatedObject.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/DuplicatedDataReader.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/DuplicatedDataWriter.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveReplaceObjectRef.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveReplaceOrClearExternalReferences.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveObjectPropertyMapper.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveReferenceMarker.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveObjectCrc32.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/LinkerSave.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Misc/NotifyHook.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\Misc/RedirectCollector.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptStackTracker.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Json\Public\Json.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\SlateCore.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\InputCore\Public\InputCore.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\InputCore\Public\InputCoreModule.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Layout/LayoutUtils.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Animation/SlateSprings.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Sound/ISlateSoundDevice.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Sound/NullSlateSoundDevice.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Textures/SlateUpdatableTexture.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Fonts/FontBulkData.h
+C:\Program Files (x86)\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontBulkData.generated.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Fonts/FontMeasure.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBorderBrush.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBoxBrush.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateColorBrush.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateImageBrush.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyleRegistry.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyle.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Types/NavigationMetaData.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Rendering/RenderingPolicy.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Rendering/SlateDrawBuffer.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Widgets/SUserWidget.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\SlateOptMacros.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/PlatformTextField.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/Windows/WindowsPlatformTextField.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/GenericPlatformTextField.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Application/IPlatformTextField.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Application/NavigationConfig.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/SWeakWidget.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/TextHitPoint.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/IRunRenderer.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ILineHighlighter.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ILayoutBlock.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/DefaultLayoutBlock.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/WidgetLayoutBlock.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ISlateRun.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ISlateRunRenderer.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ISlateLineHighlighter.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateTextLayout.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateTextRun.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateHyperlinkRun.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateImageRun.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateWidgetRun.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/TextLayoutEngine.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SFxWidget.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SSeparator.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SSpacer.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SWrapBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Widgets/Images/SImage.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Images/SSpinningImage.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SProgressBar.h
+C:\Program Files (x86)\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\SProgressBar.generated.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/SCanvas.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/ITextDecorator.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/TextDecorators.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Text/SlateTextLayoutFactory.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Text/SRichTextBlock.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SHeader.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SGridPanel.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SUniformGridPanel.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Text/ISlateEditableTextWidget.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Text/SMultiLineEditableText.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SMultiLineEditableTextBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SEditableText.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SEditableTextBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/SToolTip.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScrollBarTrack.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScrollBorder.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SErrorText.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SErrorHint.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SPopUpErrorText.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Views/STileView.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Views/STreeView.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScrollBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/SViewport.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Input/HittestGrid.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Colors/SColorBlock.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/NumericTypeInterface.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Math/BasicMathExpressionEvaluator.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/FastDecimalFormat.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSpinBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSlider.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Docking/LayoutService.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\SlateExtras.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SMissingWidget.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Layout/SlateScrollHelper.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Commands/UICommandDragDropOp.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Commands/GenericCommands.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSearchBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SVolumeControl.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Colors/SColorSpectrum.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Colors/SColorWheel.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/MultiBox/SToolBarButtonBlock.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/MultiBox/SToolBarComboButtonBlock.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SHyperlink.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Accessibility/SlateAccessibleWidgets.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Widgets/Accessibility/SlateCoreAccessibleWidgets.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SRichTextHyperlink.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Images/SThrobber.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/STextEntryPopup.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/STextComboPopup.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SExpandableButton.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SExpandableArea.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SNotificationList.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SWidgetSwitcher.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSuggestionTextBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Navigation/SBreadcrumbTrail.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/STextComboBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SNumericEntryBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SEditableComboBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Notifications/NotificationManager.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SDPIScaler.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Text/SInlineEditableTextBlock.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SVirtualKeyboardEntry.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/Layout/ScrollyZoomy.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SSafeZone.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework/MarqueeRect.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SRotatorInputBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SVectorInputBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Input/SVirtualJoystick.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Docking/SDockTab.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Docking/SDockableTab.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Docking/SDockTabStack.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files (x86)\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files (x86)\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+F:\PersonalProjects\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\MenuHUD.generated.h

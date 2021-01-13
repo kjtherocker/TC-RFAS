@@ -15,8 +15,7 @@ void SMainMenuWidget::Construct(const FArguments& InArgs)
     
     const FMargin ContentPadding = FMargin(500.0f, 300.f);
     const FMargin ButtonPadding = FMargin(10.f);
-    
-    const FText  TitleText = LOCTEXT("GameTitle", "Twilights Call Requiem For A Soul");
+
     const FText PlayText = LOCTEXT("PlayGame", "Play");
     const FText SettingsText = LOCTEXT("Settings", "Settings");
     const FText QuitText = LOCTEXT("QuitGame", "Quit Game");
@@ -121,6 +120,17 @@ FReply SMainMenuWidget::OnQuitClicked() const
     }
 
     return FReply::Handled();
+}
+
+void SMainMenuWidget::SetOwningHUD(TWeakObjectPtr<class AMenuHUD> aHud)
+{
+    OwningHUD = aHud;
+    
+}
+
+void SMainMenuWidget::SetTitleText(FText aText)
+{
+    TitleText = aText;
 }
 
 

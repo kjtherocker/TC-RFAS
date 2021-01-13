@@ -25,7 +25,14 @@ public:
 	FReply OnQuitClicked() const;
 
 	TWeakObjectPtr<class AMenuHUD> OwningHUD;
+
+	virtual void SetOwningHUD(TWeakObjectPtr<class AMenuHUD> aHud);\
+
+	virtual void SetTitleText(FText aText);
 	
 	virtual bool SupportsKeyboardFocus() const override { return true; };
+
+	FText TitleText;
+
 	
 };

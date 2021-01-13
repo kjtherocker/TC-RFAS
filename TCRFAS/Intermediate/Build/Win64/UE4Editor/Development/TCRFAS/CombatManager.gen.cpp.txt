@@ -1,7 +1,7 @@
-F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Development\TCRFAS\Definitions.TCRFAS.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-F:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-F:\TC-RFAS\TCRFAS\Source\TCRFAS/CombatManager.h
-F:\TC-RFAS\TCRFAS\Source\TCRFAS\Creature_Base.h
-F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\Creature_Base.generated.h
-F:\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\CombatManager.generated.h
+F:\PersonalProjects\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Development\TCRFAS\Definitions.TCRFAS.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+F:\PersonalProjects\TC-RFAS\TCRFAS\Source\TCRFAS/CombatManager.h
+F:\PersonalProjects\TC-RFAS\TCRFAS\Source\TCRFAS\Creature_Base.h
+F:\PersonalProjects\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\Creature_Base.generated.h
+F:\PersonalProjects\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\CombatManager.generated.h
