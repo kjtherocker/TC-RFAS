@@ -53,10 +53,11 @@ public:
 
 	virtual void SetWalkableDirections(short aWalkabledirections);
 	virtual void SetLevelNode(TArray<CardinalNodeDirections> aWalkableDirections);
-
+	virtual void SetPositionInGrid(FVector2D aPosition);
+	
 	WalkOntopTriggerTypes m_WalkOnTopTriggerTypes;
 	TArray<CardinalNodeDirections> m_WalkableDirections;
-
+	FVector2D m_PositionInGrid;
 	UPROPERTY(EditAnywhere)
     TArray<UStaticMeshComponent*> NodeWalls;
 	

@@ -112,6 +112,11 @@ void AFloorNode::SetLevelNode(TArray<CardinalNodeDirections> aWalkableDirections
 
 }
 
+void AFloorNode::SetPositionInGrid(FVector2D aPosition)
+{
+	m_PositionInGrid = aPosition;
+}
+
 // Called when the game starts or when spawned
 void AFloorNode::BeginPlay()
 {

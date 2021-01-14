@@ -32,7 +32,6 @@ void UFloor_Base::Initialize()
     
     FloorBlueprint.Append(tableinit, ARRAY_COUNT(tableinit));
 
-        
     
 }
 
