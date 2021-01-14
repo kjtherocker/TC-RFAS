@@ -3,6 +3,8 @@
 
 #include "FloorManager.h"
 
+#include "PlayerControllerPawn.h"
+
 // Sets default values
 AFloorManager::AFloorManager()
 {
@@ -59,13 +61,9 @@ void AFloorManager::SpawnFloorNode(int aRow, int aColumn, int aIndex)
 
 	floorNode = Cast<AFloorNode>(GetWorld()->SpawnActor<AActor>(FloorNodeReference, ActorFinalSpawnPoint, rotator));
 //	floorNode->Rename( *FString(aRow + " " + aColumn));
-//	floorNode->SetPositionInGrid(PositionInGrid);
+	floorNode->SetPositionInGrid(PositionInGrid);
 
 	m_FloorNodes[aIndex] = floorNode;
-	
-	//m_FloorNodes[aIndex] =  tempFloorNode;
-
-	//m_FloorNodes[aIndex].m_NodeFloorManager = this;
 	
 
 
@@ -73,10 +71,37 @@ void AFloorManager::SpawnFloorNode(int aRow, int aColumn, int aIndex)
 	
 }
 
+AFloorNode* AFloorManager::GetNode(FVector2D CurrentPosition, AFloorNode::CardinalNodeDirections TargetDirection)
+{
+	FVector2D FinalPosition =  FVector2D(CurrentPosition.X + m_CardinalPositions[TargetDirection].X,
+        CurrentPosition.Y + m_CardinalPositions[TargetDirection].Y );
+    
+	int FinalIndex = m_Floors[0]->GetIndex( FinalPosition.X,FinalPosition.Y) ;
+    
+    
+	return m_FloorNodes[FinalIndex] ;
+	
+}
+
 // Called when the game starts or when spawned
 void AFloorManager::BeginPlay()
 {
 	Super::BeginPlay();
+
+	APlayerControllerPawn * Testo;
+	Testo = Cast<APlayerControllerPawn>(GetWorld()->GetFirstPlayerController());
+
+	if(Testo != nullptr)
+	{
+		Testo->Set
+	}
+
+
+	
+	m_CardinalPositions.Add(AFloorNode::Up,    FVector2D(-1,0));
+	m_CardinalPositions.Add(AFloorNode::Down,  FVector2D(1,0));
+	m_CardinalPositions.Add(AFloorNode::Left,  FVector2D(0,-1));
+	m_CardinalPositions.Add(AFloorNode::Right, FVector2D(0,1));
 	
 
 	m_Floors.Add(NewObject<UFloor_Base>());

@@ -1,3 +1,0 @@
-F:\PersonalProjects\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Development\TCRFAS\Definitions.TCRFAS.h
-F:\PersonalProjects\TC-RFAS\TCRFAS\Source\TCRFAS\SpawnManager.h
-F:\PersonalProjects\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\SpawnManager.generated.h

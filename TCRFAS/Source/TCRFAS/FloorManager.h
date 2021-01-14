@@ -19,6 +19,9 @@ public:
 	void CreateGrid(UFloor_Base* aFloor);
 	void SpawnFloorNode(int aRow, int aColumn,int aIndex);
 
+	 AFloorNode* GetNode(FVector2D CurrentPosition,AFloorNode::CardinalNodeDirections TargetDirection);
+	TMap<AFloorNode::CardinalNodeDirections, FVector2D>  m_CardinalPositions;
+	
 	UPROPERTY()
     TArray<UFloor_Base*> m_Floors;
 	UPROPERTY()

@@ -117,6 +117,19 @@ void AFloorNode::SetPositionInGrid(FVector2D aPosition)
 	m_PositionInGrid = aPosition;
 }
 
+bool AFloorNode::IsDirectionWalkable(CardinalNodeDirections aDirection)
+{
+	for (int i = 0; i < m_WalkableDirections.Num(); i++)
+	{
+		if (m_WalkableDirections[i] == aDirection)
+		{
+			return true;
+		}
+	}
+
+	return false;
+}
+
 // Called when the game starts or when spawned
 void AFloorNode::BeginPlay()
 {

@@ -14,7 +14,7 @@ class TCRFAS_API AFloorNode : public AActor
 	GENERATED_BODY()
 
 
-	enum CardinalNodeDirections
+	public: enum CardinalNodeDirections
 	{
 		Empty = 0,
         Up = 1,
@@ -54,6 +54,9 @@ public:
 	virtual void SetWalkableDirections(short aWalkabledirections);
 	virtual void SetLevelNode(TArray<CardinalNodeDirections> aWalkableDirections);
 	virtual void SetPositionInGrid(FVector2D aPosition);
+    bool IsDirectionWalkable(CardinalNodeDirections aDirection);
+
+	
 	
 	WalkOntopTriggerTypes m_WalkOnTopTriggerTypes;
 	TArray<CardinalNodeDirections> m_WalkableDirections;

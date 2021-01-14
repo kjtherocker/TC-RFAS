@@ -30,6 +30,11 @@ void APlayerControllerPawn::BeginPlay()
 //		PlayerController->bEnableMouseOverEvents = false;
 //	}
 
+
+	m_DirectionRotations.Add( AFloorNode::Down,FVector(0, 90, 0));
+	m_DirectionRotations.Add(AFloorNode::Left, FVector(0, 180, 0));
+	m_DirectionRotations.Add(AFloorNode::Up,   FVector(0, 270, 0));
+	m_DirectionRotations.Add(AFloorNode::Right,FVector(0, 360, 0));     
 	
 
 }
@@ -45,7 +50,7 @@ void APlayerControllerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInp
 {
 	//Super::SetupPlayerInputComponent(PlayerInputComponent);
 //
-	//InputComponent->BindAxis("Keyboard_Up",this , &APlayerControllerPawn::CalculateMoveInput);
+	InputComponent->BindAxis("Keyboard_Up",this , &APlayerControllerPawn::PlayerGetMovementInput);
 	//InputComponent->BindAxis("Keyboard_Down",this , &APlayerControllerPawn::CalculateMoveInput);
 }
 
@@ -61,5 +66,36 @@ void APlayerControllerPawn::CalculateMoveInput(float Value)
 	//}
 }
 
+void APlayerControllerPawn::SetPlayerFloorNode(AFloorNode* aFloorNode)
+{
+	m_CurrentFloorNode = aFloorNode;
+}
 
+void APlayerControllerPawn::PlayerGetMovementInput(float aMovement)
+{
+	if(aMovement >0)
+	{
+		if (m_CurrentFloorNode->IsDirectionWalkable(m_CurrenDirection))
+		{
+			MoveTowards();
+		}
+	}
+	
+}
+
+void APlayerControllerPawn::PlayerRotation(float aRotation)
+{
+}
+
+void APlayerControllerPawn::MoveTowards()
+{
+	//FloorNode TargetNode = m_CurrentFloorManager.GetNode(currentFloorNode.m_PositionInGrid, CurrentDirection);
+	//if (TargetNode == null)
+	//{
+	//	Debug.Log("Cant Find Node " + currentFloorNode.m_PositionInGrid);
+	//	return;
+	//}
+        
+	//StartCoroutine(DirectMovement(transform, TargetNode, 0.3f));
+}
 
