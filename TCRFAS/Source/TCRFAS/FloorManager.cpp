@@ -23,13 +23,13 @@ void AFloorManager::CreateGrid(UFloor_Base* aFloor)
 		{
 			int LevelIndex = m_Floors[0]->GetIndex(x, y);
 			//If there is no node then continue
-			if (tempfloor->FloorBlueprint[LevelIndex] == 0)
+			if (tempfloor->FloorBlueprint[LevelIndex] == (short)CardinalNodeDirections::Empty)
 			{
 				continue;
 			}
 
 			SpawnFloorNode(x , y,LevelIndex );
-                
+        //        
 			m_FloorNodes[LevelIndex]->SetWalkableDirections(m_Floors[0]->FloorBlueprint[LevelIndex]);
 		}
 	}
@@ -71,7 +71,7 @@ void AFloorManager::SpawnFloorNode(int aRow, int aColumn, int aIndex)
 	
 }
 
-AFloorNode* AFloorManager::GetNode(FVector2D CurrentPosition, AFloorNode::CardinalNodeDirections TargetDirection)
+AFloorNode* AFloorManager::GetNode(FVector2D CurrentPosition, CardinalNodeDirections TargetDirection)
 {
 	FVector2D FinalPosition =  FVector2D(CurrentPosition.X + m_CardinalPositions[TargetDirection].X,
         CurrentPosition.Y + m_CardinalPositions[TargetDirection].Y );
@@ -93,15 +93,15 @@ void AFloorManager::BeginPlay()
 
 	if(Testo != nullptr)
 	{
-		Testo->Set
+	//	Testo->Set
 	}
 
 
 	
-	m_CardinalPositions.Add(AFloorNode::Up,    FVector2D(-1,0));
-	m_CardinalPositions.Add(AFloorNode::Down,  FVector2D(1,0));
-	m_CardinalPositions.Add(AFloorNode::Left,  FVector2D(0,-1));
-	m_CardinalPositions.Add(AFloorNode::Right, FVector2D(0,1));
+	m_CardinalPositions.Add(CardinalNodeDirections::Up,    FVector2D(-1,0));
+	m_CardinalPositions.Add(CardinalNodeDirections::Down,  FVector2D(1,0));
+	m_CardinalPositions.Add(CardinalNodeDirections::Left,  FVector2D(0,-1));
+	m_CardinalPositions.Add(CardinalNodeDirections::Right, FVector2D(0,1));
 	
 
 	m_Floors.Add(NewObject<UFloor_Base>());

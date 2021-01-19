@@ -52,8 +52,8 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	
-	TMap<AFloorNode::CardinalNodeDirections, FVector> m_DirectionRotations;
-	AFloorNode::CardinalNodeDirections m_CurrenDirection;
+	TMap<CardinalNodeDirections, FVector> m_DirectionRotations;
+	CardinalNodeDirections m_CurrenDirection;
 	
 public:	
 	// Called every frame

@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeFloorNode() {}
 	TCRFAS_API UClass* Z_Construct_UClass_AFloorNode();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_TCRFAS();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void AFloorNode::StaticRegisterNativesAFloorNode()
 	{
@@ -32,12 +31,6 @@ void EmptyLinkFunctionForGeneratedCodeFloorNode() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NodeWalls_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_NodeWalls;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_NodeWalls_Inner;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -51,19 +44,6 @@ void EmptyLinkFunctionForGeneratedCodeFloorNode() {}
 		{ "ModuleRelativePath", "FloorNode.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFloorNode_Statics::NewProp_NodeWalls_MetaData[] = {
-		{ "Category", "FloorNode" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "FloorNode.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AFloorNode_Statics::NewProp_NodeWalls = { "NodeWalls", nullptr, (EPropertyFlags)0x0010008000000009, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFloorNode, NodeWalls), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AFloorNode_Statics::NewProp_NodeWalls_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFloorNode_Statics::NewProp_NodeWalls_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFloorNode_Statics::NewProp_NodeWalls_Inner = { "NodeWalls", nullptr, (EPropertyFlags)0x0000000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFloorNode_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFloorNode_Statics::NewProp_NodeWalls,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFloorNode_Statics::NewProp_NodeWalls_Inner,
-	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AFloorNode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AFloorNode>::IsAbstract,
 	};
@@ -73,11 +53,11 @@ void EmptyLinkFunctionForGeneratedCodeFloorNode() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		Z_Construct_UClass_AFloorNode_Statics::PropPointers,
+		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		UE_ARRAY_COUNT(Z_Construct_UClass_AFloorNode_Statics::PropPointers),
+		0,
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AFloorNode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AFloorNode_Statics::Class_MetaDataParams))
@@ -91,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeFloorNode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFloorNode, 2232605253);
+	IMPLEMENT_CLASS(AFloorNode, 1593357815);
 	template<> TCRFAS_API UClass* StaticClass<AFloorNode>()
 	{
 		return AFloorNode::StaticClass();

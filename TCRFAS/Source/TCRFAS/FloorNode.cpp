@@ -10,85 +10,89 @@ AFloorNode::AFloorNode()
 	PrimaryActorTick.bCanEverTick = false;
 }
 
+AFloorNode::~AFloorNode()
+{
+}
+
 void AFloorNode::SetWalkableDirections(short aWalkabledirections)
 {
 	switch (aWalkabledirections)
 	{
-		case Up:
-			m_WalkableDirections.Add(Up);
+		case  CardinalNodeDirections::Up:
+			m_WalkableDirections.Add( CardinalNodeDirections::Up);
 		break;
 
-		case Down:
-			m_WalkableDirections.Add(Down);
+		case CardinalNodeDirections::Down:
+			m_WalkableDirections.Add( CardinalNodeDirections::Down);
 		break;
 
-		case Left:
-			m_WalkableDirections.Add(Left);
+		case  CardinalNodeDirections::Left:
+			m_WalkableDirections.Add( CardinalNodeDirections::Left);
 		break;
 
-		case Right:
-			m_WalkableDirections.Add(Right);
+		case  CardinalNodeDirections::Right:
+			m_WalkableDirections.Add( CardinalNodeDirections::Right);
 		break;
 
-		case AllSidesOpen:
-           m_WalkableDirections.Add(Up);
-           m_WalkableDirections.Add(Down);
-           m_WalkableDirections.Add(Right);
-           m_WalkableDirections.Add(Left);
+		case  CardinalNodeDirections::AllSidesOpen:
+           m_WalkableDirections.Add( CardinalNodeDirections::Up);
+           m_WalkableDirections.Add( CardinalNodeDirections::Down);
+           m_WalkableDirections.Add( CardinalNodeDirections::Right);
+           m_WalkableDirections.Add( CardinalNodeDirections::Left);
         break;
 
-		case UpDown:
-			m_WalkableDirections.Add(Up);
-			m_WalkableDirections.Add(Down);
+		case  CardinalNodeDirections::UpDown:
+			m_WalkableDirections.Add( CardinalNodeDirections::Up);
+			m_WalkableDirections.Add( CardinalNodeDirections::Down);
 		break;
 
-		case UpLeft:
-			m_WalkableDirections.Add(Up);
-			m_WalkableDirections.Add(Left);
+		case  CardinalNodeDirections::UpLeft:
+			m_WalkableDirections.Add( CardinalNodeDirections::Up);
+			m_WalkableDirections.Add( CardinalNodeDirections::Left);
 		break;
 
-		case Upright:
-			m_WalkableDirections.Add(Up);
-			m_WalkableDirections.Add(Right);
+		case  CardinalNodeDirections::Upright:
+			m_WalkableDirections.Add( CardinalNodeDirections::Up);
+			m_WalkableDirections.Add( CardinalNodeDirections::Right);
 		break;
 
-		case LeftDown:
-			m_WalkableDirections.Add(Down);
-			m_WalkableDirections.Add(Left);
+		case  CardinalNodeDirections::LeftDown:
+			m_WalkableDirections.Add( CardinalNodeDirections::Down);
+			m_WalkableDirections.Add( CardinalNodeDirections::Left);
 		break;
 
-		case RightDown:
-			m_WalkableDirections.Add(Down);
-			m_WalkableDirections.Add(Right);
+		case  CardinalNodeDirections::RightDown:
+			m_WalkableDirections.Add( CardinalNodeDirections::Down);
+			m_WalkableDirections.Add( CardinalNodeDirections::Right);
 		break;
 
-		case LeftRight:
-			m_WalkableDirections.Add(Right);
-			m_WalkableDirections.Add(Left);
+		case  CardinalNodeDirections::LeftRight:
+			m_WalkableDirections.Add( CardinalNodeDirections::Right);
+			m_WalkableDirections.Add( CardinalNodeDirections::Left);
 		break;
 
-		case UpLeftRight:
-			m_WalkableDirections.Add(Up);
-			m_WalkableDirections.Add(Right);
-			m_WalkableDirections.Add(Left);
+		case  CardinalNodeDirections::UpLeftRight:
+			m_WalkableDirections.Add( CardinalNodeDirections::Up);
+			m_WalkableDirections.Add( CardinalNodeDirections::Right);
+			m_WalkableDirections.Add( CardinalNodeDirections::Left);
 		break;
 
-		case UpLeftDown:
-			m_WalkableDirections.Add(Up);
-			m_WalkableDirections.Add(Down);
-			m_WalkableDirections.Add(Left);
+		case  CardinalNodeDirections::UpLeftDown:
+			m_WalkableDirections.Add( CardinalNodeDirections::Up);
+			m_WalkableDirections.Add( CardinalNodeDirections::Down);
+			m_WalkableDirections.Add( CardinalNodeDirections::Left);
 		break;
        
-		case UpRightDown:
-			m_WalkableDirections.Add(Up);
-			m_WalkableDirections.Add(Down);
-			m_WalkableDirections.Add(Right);
+		case CardinalNodeDirections::UpRightDown:
+			m_WalkableDirections.Add( CardinalNodeDirections::Up);
+			m_WalkableDirections.Add( CardinalNodeDirections::Down);
+			m_WalkableDirections.Add( CardinalNodeDirections::Right);
 		break;
 
-		case DownLeftRight:
-			m_WalkableDirections.Add(Down);
-			m_WalkableDirections.Add(Right);
-			m_WalkableDirections.Add(Left);
+		case  CardinalNodeDirections::DownLeftRight:
+			m_WalkableDirections.Add( CardinalNodeDirections::Down);
+			m_WalkableDirections.Add( CardinalNodeDirections::Right);
+			m_WalkableDirections.Add( CardinalNodeDirections::Left);
 		break;
 
 	}

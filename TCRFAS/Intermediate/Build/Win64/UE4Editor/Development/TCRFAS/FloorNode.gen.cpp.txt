@@ -25,4 +25,5 @@ C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConver
 C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
 C:\Program Files (x86)\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
 F:\PersonalProjects\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\Floor_Base.generated.h
+F:\PersonalProjects\TC-RFAS\TCRFAS\Source\TCRFAS\EnumConstants.h
 F:\PersonalProjects\TC-RFAS\TCRFAS\Intermediate\Build\Win64\UE4Editor\Inc\TCRFAS\FloorNode.generated.h

@@ -31,10 +31,10 @@ void APlayerControllerPawn::BeginPlay()
 //	}
 
 
-	m_DirectionRotations.Add( AFloorNode::Down,FVector(0, 90, 0));
-	m_DirectionRotations.Add(AFloorNode::Left, FVector(0, 180, 0));
-	m_DirectionRotations.Add(AFloorNode::Up,   FVector(0, 270, 0));
-	m_DirectionRotations.Add(AFloorNode::Right,FVector(0, 360, 0));     
+	m_DirectionRotations.Add(CardinalNodeDirections::Down,FVector(0, 90, 0));
+	m_DirectionRotations.Add(CardinalNodeDirections::Left, FVector(0, 180, 0));
+	m_DirectionRotations.Add(CardinalNodeDirections::Up,   FVector(0, 270, 0));
+	m_DirectionRotations.Add(CardinalNodeDirections::Right,FVector(0, 360, 0));     
 	
 
 }

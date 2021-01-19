@@ -19,7 +19,6 @@ void EmptyLinkFunctionForGeneratedCodeFloorManager() {}
 	UPackage* Z_Construct_UPackage__Script_TCRFAS();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	TCRFAS_API UClass* Z_Construct_UClass_AFloorNode_NoRegister();
 	TCRFAS_API UClass* Z_Construct_UClass_UFloor_Base_NoRegister();
 // End Cross Module References
 	void AFloorManager::StaticRegisterNativesAFloorManager()
@@ -39,11 +38,6 @@ void EmptyLinkFunctionForGeneratedCodeFloorManager() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FloorNodeReference_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_FloorNodeReference;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_FloorNodes_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_m_FloorNodes;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_FloorNodes_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_Floors_MetaData[];
 #endif
@@ -71,13 +65,6 @@ void EmptyLinkFunctionForGeneratedCodeFloorManager() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AFloorManager_Statics::NewProp_FloorNodeReference = { "FloorNodeReference", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFloorManager, FloorNodeReference), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AFloorManager_Statics::NewProp_FloorNodeReference_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFloorManager_Statics::NewProp_FloorNodeReference_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFloorManager_Statics::NewProp_m_FloorNodes_MetaData[] = {
-		{ "ModuleRelativePath", "FloorManager.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AFloorManager_Statics::NewProp_m_FloorNodes = { "m_FloorNodes", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFloorManager, m_FloorNodes), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AFloorManager_Statics::NewProp_m_FloorNodes_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFloorManager_Statics::NewProp_m_FloorNodes_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFloorManager_Statics::NewProp_m_FloorNodes_Inner = { "m_FloorNodes", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AFloorNode_NoRegister, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFloorManager_Statics::NewProp_m_Floors_MetaData[] = {
 		{ "ModuleRelativePath", "FloorManager.h" },
 	};
@@ -86,8 +73,6 @@ void EmptyLinkFunctionForGeneratedCodeFloorManager() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFloorManager_Statics::NewProp_m_Floors_Inner = { "m_Floors", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UFloor_Base_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFloorManager_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFloorManager_Statics::NewProp_FloorNodeReference,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFloorManager_Statics::NewProp_m_FloorNodes,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFloorManager_Statics::NewProp_m_FloorNodes_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFloorManager_Statics::NewProp_m_Floors,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFloorManager_Statics::NewProp_m_Floors_Inner,
 	};
@@ -118,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeFloorManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFloorManager, 625975692);
+	IMPLEMENT_CLASS(AFloorManager, 1474653562);
 	template<> TCRFAS_API UClass* StaticClass<AFloorManager>()
 	{
 		return AFloorManager::StaticClass();

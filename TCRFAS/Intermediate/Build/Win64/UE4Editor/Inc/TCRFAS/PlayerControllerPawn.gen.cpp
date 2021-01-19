@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerControllerPawn() {}
 	TCRFAS_API UClass* Z_Construct_UClass_APlayerControllerPawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_TCRFAS();
+	TCRFAS_API UClass* Z_Construct_UClass_AFloorNode_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -34,6 +35,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerControllerPawn() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_CurrentFloorNode_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_CurrentFloorNode;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RotateSpeed_MetaData[];
 #endif
@@ -69,6 +74,12 @@ void EmptyLinkFunctionForGeneratedCodePlayerControllerPawn() {}
 		{ "ModuleRelativePath", "PlayerControllerPawn.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_m_CurrentFloorNode_MetaData[] = {
+		{ "ModuleRelativePath", "PlayerControllerPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_m_CurrentFloorNode = { "m_CurrentFloorNode", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerControllerPawn, m_CurrentFloorNode), Z_Construct_UClass_AFloorNode_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_m_CurrentFloorNode_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_m_CurrentFloorNode_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_RotateSpeed_MetaData[] = {
 		{ "Category", "PlayerControllerPawn" },
@@ -111,6 +122,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerControllerPawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x001000000008001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerControllerPawn, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_SpringArm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerControllerPawn_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_m_CurrentFloorNode,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_RotateSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_MoveSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerControllerPawn_Statics::NewProp_PlayerMesh,
@@ -144,7 +156,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerControllerPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerControllerPawn, 3561406979);
+	IMPLEMENT_CLASS(APlayerControllerPawn, 156500237);
 	template<> TCRFAS_API UClass* StaticClass<APlayerControllerPawn>()
 	{
 		return APlayerControllerPawn::StaticClass();

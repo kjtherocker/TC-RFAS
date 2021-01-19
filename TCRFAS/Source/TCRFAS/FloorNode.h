@@ -5,8 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Floor_Base.h"
+#include "EnumConstants.h"
 #include "FloorNode.generated.h"
-
 
 UCLASS()
 class TCRFAS_API AFloorNode : public AActor
@@ -14,25 +14,6 @@ class TCRFAS_API AFloorNode : public AActor
 	GENERATED_BODY()
 
 
-	public: enum CardinalNodeDirections
-	{
-		Empty = 0,
-        Up = 1,
-        Down = 2,
-        Left = 3,
-        Right = 4,
-        AllSidesOpen = 5,
-        UpDown = 6,
-        UpLeft = 7,
-        Upright = 8,
-        LeftDown = 9,
-        RightDown = 10,
-        LeftRight = 11,
-        UpLeftRight = 12,
-        UpLeftDown = 13,
-        UpRightDown = 14,
-        DownLeftRight = 15,
-    };
 
 	 enum WalkOntopTriggerTypes
 	{
@@ -47,21 +28,23 @@ class TCRFAS_API AFloorNode : public AActor
     
 
 	
+
+	
 public:	
 	// Sets default values for this actor's properties
 	AFloorNode();
+	~AFloorNode();
 
 	virtual void SetWalkableDirections(short aWalkabledirections);
 	virtual void SetLevelNode(TArray<CardinalNodeDirections> aWalkableDirections);
 	virtual void SetPositionInGrid(FVector2D aPosition);
     bool IsDirectionWalkable(CardinalNodeDirections aDirection);
 
-	
-	
 	WalkOntopTriggerTypes m_WalkOnTopTriggerTypes;
 	TArray<CardinalNodeDirections> m_WalkableDirections;
 	FVector2D m_PositionInGrid;
-	UPROPERTY(EditAnywhere)
+	
+	//UPROPERTY(EditAnywhere)
     TArray<UStaticMeshComponent*> NodeWalls;
 	
 protected:
@@ -69,3 +52,5 @@ protected:
 	virtual void BeginPlay() override;
 
 };
+
+
